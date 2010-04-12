@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	010D6F351172F5D900A72638 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 53";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 1366;
+	};
+	0133E8041172C7D000691E4E /* Rage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Rage;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0133E80D1172C7D600691E4E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0133E80E1172C7D600691E4E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0133E8171172C84400691E4E /* RageView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 286}}";
+			sepNavSelRange = "{277, 0}";
+			sepNavVisRange = "{129, 186}";
+			sepNavWindowFrame = "{{15, 63}, {830, 1115}}";
+		};
+	};
+	0133E8181172C84400691E4E /* RageView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1547}}";
+			sepNavSelRange = "{1342, 0}";
+			sepNavVisRange = "{1366, 1636}";
+			sepNavWindowFrame = "{{49, 63}, {830, 1115}}";
+		};
+	};
+	0133E8501172D8E100691E4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RageAppDelegate.h */;
+		name = "RageAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	0133E8511172D8E100691E4E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0133E80F1172C7E200691E4E /* Icon.png */;
+	};
+	0133E9291172EBA300691E4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Rage_Prefix.pch */;
+		name = "Rage_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	0133E9461172EDED00691E4E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Rage-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/nick/Documents/Rage/Rage-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	0133E9471172EDED00691E4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	0133E9481172EDED00691E4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RageAppDelegate.m */;
+		name = "RageAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 188;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 136;
+	};
+	0133E9491172EDED00691E4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 13";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	018FB97E1172F63200A4423B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 53";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1636;
+		vrLoc = 1366;
+	};
+	018FB98C1172F67400A4423B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 53";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1636;
+		vrLoc = 1366;
+	};
+	018FB98D1172F67400A4423B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0133E8FB1172EB3500691E4E /* rage0.png */;
+	};
+	018FB98E1172F67400A4423B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0133E8FB1172EB3500691E4E /* rage0.png */;
+	};
+	019F84411172F5B10097C42F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 53";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 1366;
+	};
+	1D3623240D0F684500981E51 /* RageAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
+			sepNavSelRange = "{410, 0}";
+			sepNavVisRange = "{0, 417}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RageAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 546}}";
+			sepNavSelRange = "{188, 0}";
+			sepNavVisRange = "{136, 703}";
+			sepNavWindowFrame = "{{15, 63}, {830, 1115}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Rage */ = {
+		activeExec = 0;
+		executables = (
+			0133E8041172C7D000691E4E /* Rage */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0133E8041172C7D000691E4E /* Rage */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Rage */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Rage */,
+		);
+		codeSenseManager = 0133E80E1172C7D600691E4E /* Code sense */;
+		executables = (
+			0133E8041172C7D000691E4E /* Rage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					594,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292746785;
+			PBXWorkspaceStateSaveDate = 292746785;
+		};
+		perUserProjectItems = {
+			010D6F351172F5D900A72638 = 010D6F351172F5D900A72638 /* PBXTextBookmark */;
+			0133E8501172D8E100691E4E = 0133E8501172D8E100691E4E /* PBXTextBookmark */;
+			0133E8511172D8E100691E4E = 0133E8511172D8E100691E4E /* PBXBookmark */;
+			0133E9291172EBA300691E4E = 0133E9291172EBA300691E4E /* PBXTextBookmark */;
+			0133E9461172EDED00691E4E = 0133E9461172EDED00691E4E /* PlistBookmark */;
+			0133E9471172EDED00691E4E = 0133E9471172EDED00691E4E /* PBXTextBookmark */;
+			0133E9481172EDED00691E4E = 0133E9481172EDED00691E4E /* PBXTextBookmark */;
+			0133E9491172EDED00691E4E = 0133E9491172EDED00691E4E /* PBXTextBookmark */;
+			018FB97E1172F63200A4423B /* PBXTextBookmark */ = 018FB97E1172F63200A4423B /* PBXTextBookmark */;
+			018FB98C1172F67400A4423B /* PBXTextBookmark */ = 018FB98C1172F67400A4423B /* PBXTextBookmark */;
+			018FB98D1172F67400A4423B /* PBXBookmark */ = 018FB98D1172F67400A4423B /* PBXBookmark */;
+			018FB98E1172F67400A4423B /* PBXBookmark */ = 018FB98E1172F67400A4423B /* PBXBookmark */;
+			019F84411172F5B10097C42F = 019F84411172F5B10097C42F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0133E80D1172C7D600691E4E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {772, 460}}";
+			sepNavSelRange = "{349, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Rage_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {771, 964}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 177}";
+			sepNavWindowFrame = "{{15, 63}, {830, 1115}}";
+		};
+	};
+}

@@ -1,0 +1,645 @@
+TRage
+v7
+r0
+t292746868.550564
+cCheck dependencies
+cProcessInfoPlistFile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Info.plist Rage-Info.plist
+cCompileXIB /Users/nick/rage/iphone/Rage/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Rage.app/Icon.png Icon.png
+cCompileXIB /Users/nick/rage/iphone/Rage/Classes/RageView.xib
+cCpResource build/Debug-iphonesimulator/Rage.app/rage0.png rage0.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage1.png rage1.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage2.png rage2.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage3.png rage3.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage4.png rage4.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage5.png rage5.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage6.png rage6.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage7.png rage7.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage8.png rage8.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage9.png rage9.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage10.png rage10.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage11.png rage11.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage12.png rage12.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage13.png rage13.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage14.png rage14.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage15.png rage15.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage16.png rage16.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage17.png rage17.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage18.png rage18.png
+cCpResource build/Debug-iphonesimulator/Rage.app/rage19.png rage19.png
+cProcessPCH /var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch.gch Rage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/main.o /Users/nick/rage/iphone/Rage/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageAppDelegate.o /Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageView.o /Users/nick/rage/iphone/Rage/Classes/RageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage normal i386
+cGenerateDSYMFile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app.dSYM /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage
+cTouch /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.h
+c000000004BC2BD8100000000000001A2
+t1271053697
+s418
+i<UIKit/UIKit.h>
+
+N/Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m
+c000000004BC2BD810000000000000347
+t1271053697
+s839
+i"RageAppDelegate.h"
+i"RageView.h"
+
+N/Users/nick/rage/iphone/Rage/Classes/RageView.h
+c000000004BC2BD81000000000000013B
+t1271053697
+s315
+i<UIKit/UIKit.h>
+
+N/Users/nick/rage/iphone/Rage/Classes/RageView.m
+c000000004BC2BD810000000000000E6C
+t1271053697
+s3692
+i"RageView.h"
+
+N/Users/nick/rage/iphone/Rage/Classes/RageView.xib
+c000000004BC2BD81000000000000558C
+t1271053697
+s21900
+
+N/Users/nick/rage/iphone/Rage/Icon.png
+c000000004BC2BD810000000000000490
+t1271053697
+s1168
+
+N/Users/nick/rage/iphone/Rage/MainWindow.xib
+c000000004BC2BD8100000000000020F9
+t1271053697
+s8441
+
+N/Users/nick/rage/iphone/Rage/Rage_Prefix.pch
+c000000004BC2BD8100000000000000B1
+t1271053697
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app
+t1271054068
+s952
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app.dSYM
+t1271054068
+s102
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Icon.png
+t1271054067
+s1168
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Info.plist
+t1271054067
+s581
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/MainWindow.nib
+t1271054068
+s1357
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/PkgInfo
+t1271054067
+s8
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage
+t1271054068
+s20032
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/RageView.nib
+t1271054068
+s3197
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage0.png
+t1271054068
+s6756
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage1.png
+t1271054068
+s6765
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage10.png
+t1271054068
+s6972
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage11.png
+t1271054068
+s7013
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage12.png
+t1271054068
+s7046
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage13.png
+t1271054068
+s7059
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage14.png
+t1271054068
+s7064
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage15.png
+t1271054068
+s7086
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage16.png
+t1271054068
+s7126
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage17.png
+t1271054068
+s7143
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage18.png
+t1271054068
+s7153
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage19.png
+t1271054068
+s7154
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage2.png
+t1271054068
+s6776
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage3.png
+t1271054068
+s6816
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage4.png
+t1271054068
+s6807
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage5.png
+t1271054068
+s6851
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage6.png
+t1271054068
+s6850
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage7.png
+t1271054068
+s6874
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage8.png
+t1271054068
+s6932
+
+N/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/rage9.png
+t1271054068
+s6962
+
+N/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/Rage.LinkFileList
+c000000004BC2BEF3000000000000014D
+t1271054067
+s333
+
+N/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageAppDelegate.o
+t1271054068
+s38768
+
+N/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageView.o
+t1271054068
+s34880
+
+N/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/main.o
+t1271054068
+s5928
+
+N/Users/nick/rage/iphone/Rage/main.m
+c000000004BC2BD810000000000000166
+t1271053697
+s358
+i<UIKit/UIKit.h>
+
+N/Users/nick/rage/iphone/Rage/rage0.png
+c000000004BC2BD810000000000001A64
+t1271053697
+s6756
+
+N/Users/nick/rage/iphone/Rage/rage1.png
+c000000004BC2BD810000000000001A6D
+t1271053697
+s6765
+
+N/Users/nick/rage/iphone/Rage/rage10.png
+c000000004BC2BD810000000000001B3C
+t1271053697
+s6972
+
+N/Users/nick/rage/iphone/Rage/rage11.png
+c000000004BC2BD810000000000001B65
+t1271053697
+s7013
+
+N/Users/nick/rage/iphone/Rage/rage12.png
+c000000004BC2BD810000000000001B86
+t1271053697
+s7046
+
+N/Users/nick/rage/iphone/Rage/rage13.png
+c000000004BC2BD810000000000001B93
+t1271053697
+s7059
+
+N/Users/nick/rage/iphone/Rage/rage14.png
+c000000004BC2BD810000000000001B98
+t1271053697
+s7064
+
+N/Users/nick/rage/iphone/Rage/rage15.png
+c000000004BC2BD810000000000001BAE
+t1271053697
+s7086
+
+N/Users/nick/rage/iphone/Rage/rage16.png
+c000000004BC2BD810000000000001BD6
+t1271053697
+s7126
+
+N/Users/nick/rage/iphone/Rage/rage17.png
+c000000004BC2BD810000000000001BE7
+t1271053697
+s7143
+
+N/Users/nick/rage/iphone/Rage/rage18.png
+c000000004BC2BD810000000000001BF1
+t1271053697
+s7153
+
+N/Users/nick/rage/iphone/Rage/rage19.png
+c000000004BC2BD810000000000001BF2
+t1271053697
+s7154
+
+N/Users/nick/rage/iphone/Rage/rage2.png
+c000000004BC2BD810000000000001A78
+t1271053697
+s6776
+
+N/Users/nick/rage/iphone/Rage/rage3.png
+c000000004BC2BD810000000000001AA0
+t1271053697
+s6816
+
+N/Users/nick/rage/iphone/Rage/rage4.png
+c000000004BC2BD810000000000001A97
+t1271053697
+s6807
+
+N/Users/nick/rage/iphone/Rage/rage5.png
+c000000004BC2BD810000000000001AC3
+t1271053697
+s6851
+
+N/Users/nick/rage/iphone/Rage/rage6.png
+c000000004BC2BD810000000000001AC2
+t1271053697
+s6850
+
+N/Users/nick/rage/iphone/Rage/rage7.png
+c000000004BC2BD810000000000001ADA
+t1271053697
+s6874
+
+N/Users/nick/rage/iphone/Rage/rage8.png
+c000000004BC2BD810000000000001B14
+t1271053697
+s6932
+
+N/Users/nick/rage/iphone/Rage/rage9.png
+c000000004BC2BD810000000000001B32
+t1271053697
+s6962
+
+N/var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch.gch
+t1271053897
+s13026768
+
+NRage-Info.plist
+c000000004BC2BD81000000000000038D
+t1271053697
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292746867#292746867#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageAppDelegate.o /Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s292746868.379104
+e292746868.474390
+r1
+xCompileC
+xbuild/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageAppDelegate.o
+x/Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m292746868#292746868#0(0"0(0#0#54"/Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m4300911832#1719"    cd /Users/nick/rage/iphone/Rage    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-generated-files.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-own-target-headers.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-all-target-headers.hmap -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-project-headers.hmap -F/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator -I/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/include -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources/i386 -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources -include /var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch -c /Users/nick/rage/iphone/Rage/Classes/RageAppDelegate.m -o /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageAppDelegate.o0#
+
+CCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageView.o /Users/nick/rage/iphone/Rage/Classes/RageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s292746868.439177
+e292746868.510110
+r1
+xCompileC
+xbuild/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageView.o
+x/Users/nick/rage/iphone/Rage/Classes/RageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/nick/rage/iphone/Rage/Classes/RageView.m292746868#292746868#0(0"0(0#0#47"/Users/nick/rage/iphone/Rage/Classes/RageView.m4300911832#1705"    cd /Users/nick/rage/iphone/Rage    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-generated-files.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-own-target-headers.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-all-target-headers.hmap -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-project-headers.hmap -F/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator -I/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/include -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources/i386 -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources -include /var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch -c /Users/nick/rage/iphone/Rage/Classes/RageView.m -o /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/RageView.o0#
+
+CCompileC build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/main.o /Users/nick/rage/iphone/Rage/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s292746868.378031
+e292746868.439070
+r1
+xCompileC
+xbuild/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/main.o
+x/Users/nick/rage/iphone/Rage/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/nick/rage/iphone/Rage/main.m292746868#292746868#0(0"0(0#0#35"/Users/nick/rage/iphone/Rage/main.m4300911832#1689"    cd /Users/nick/rage/iphone/Rage    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-generated-files.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-own-target-headers.hmap -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-all-target-headers.hmap -iquote /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Rage-project-headers.hmap -F/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator -I/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/include -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources/i386 -I/Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/DerivedSources -include /var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch -c /Users/nick/rage/iphone/Rage/main.m -o /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/nick/rage/iphone/Rage/Classes/RageView.xib
+s292746867.944100
+e292746868.377788
+r1
+xCompileXIB
+x/Users/nick/rage/iphone/Rage/Classes/RageView.xib
+lSLF07#2@31"CompileXIB Classes/RageView.xib292746867#292746868#0(0"0(0#0#49"/Users/nick/rage/iphone/Rage/Classes/RageView.xib4300911832#453"    cd /Users/nick/rage/iphone/Rage    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/RageView.nib /Users/nick/rage/iphone/Rage/Classes/RageView.xib0#
+
+CCompileXIB /Users/nick/rage/iphone/Rage/MainWindow.xib
+s292746867.940947
+e292746868.257084
+r1
+xCompileXIB
+x/Users/nick/rage/iphone/Rage/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib292746867#292746868#0(0"0(0#0#43"/Users/nick/rage/iphone/Rage/MainWindow.xib4300911832#449"    cd /Users/nick/rage/iphone/Rage    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/MainWindow.nib /Users/nick/rage/iphone/Rage/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/Icon.png Icon.png
+s292746867.942279
+e292746867.966772
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png292746867#292746867#0(0"0(0#0#37"/Users/nick/rage/iphone/Rage/Icon.png4300911832#419"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/Icon.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage0.png rage0.png
+s292746868.257272
+e292746868.271978
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage0.png
+xrage0.png
+lSLF07#2@14"Copy rage0.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage0.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage0.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage1.png rage1.png
+s292746868.258008
+e292746868.272101
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage1.png
+xrage1.png
+lSLF07#2@14"Copy rage1.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage1.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage1.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage10.png rage10.png
+s292746868.274285
+e292746868.292881
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage10.png
+xrage10.png
+lSLF07#2@15"Copy rage10.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage10.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage10.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage11.png rage11.png
+s292746868.275992
+e292746868.289202
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage11.png
+xrage11.png
+lSLF07#2@15"Copy rage11.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage11.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage11.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage12.png rage12.png
+s292746868.277773
+e292746868.299643
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage12.png
+xrage12.png
+lSLF07#2@15"Copy rage12.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage12.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage12.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage13.png rage13.png
+s292746868.279814
+e292746868.308444
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage13.png
+xrage13.png
+lSLF07#2@15"Copy rage13.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage13.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage13.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage14.png rage14.png
+s292746868.281561
+e292746868.311958
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage14.png
+xrage14.png
+lSLF07#2@15"Copy rage14.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage14.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage14.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage15.png rage15.png
+s292746868.283456
+e292746868.298383
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage15.png
+xrage15.png
+lSLF07#2@15"Copy rage15.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage15.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage15.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage16.png rage16.png
+s292746868.285807
+e292746868.301556
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage16.png
+xrage16.png
+lSLF07#2@15"Copy rage16.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage16.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage16.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage17.png rage17.png
+s292746868.289359
+e292746868.305170
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage17.png
+xrage17.png
+lSLF07#2@15"Copy rage17.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage17.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage17.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage18.png rage18.png
+s292746868.291070
+e292746868.313722
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage18.png
+xrage18.png
+lSLF07#2@15"Copy rage18.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage18.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage18.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage19.png rage19.png
+s292746868.292960
+e292746868.310170
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage19.png
+xrage19.png
+lSLF07#2@15"Copy rage19.png292746868#292746868#0(0"0(0#0#39"/Users/nick/rage/iphone/Rage/rage19.png4300911832#421"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage19.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage2.png rage2.png
+s292746868.258656
+e292746868.279612
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage2.png
+xrage2.png
+lSLF07#2@14"Copy rage2.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage2.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage2.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage3.png rage3.png
+s292746868.260266
+e292746868.272213
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage3.png
+xrage3.png
+lSLF07#2@14"Copy rage3.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage3.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage3.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage4.png rage4.png
+s292746868.261962
+e292746868.272324
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage4.png
+xrage4.png
+lSLF07#2@14"Copy rage4.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage4.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage4.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage5.png rage5.png
+s292746868.264137
+e292746868.283374
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage5.png
+xrage5.png
+lSLF07#2@14"Copy rage5.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage5.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage5.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage6.png rage6.png
+s292746868.265860
+e292746868.285723
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage6.png
+xrage6.png
+lSLF07#2@14"Copy rage6.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage6.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage6.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage7.png rage7.png
+s292746868.267539
+e292746868.279739
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage7.png
+xrage7.png
+lSLF07#2@14"Copy rage7.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage7.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage7.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage8.png rage8.png
+s292746868.269951
+e292746868.294805
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage8.png
+xrage8.png
+lSLF07#2@14"Copy rage8.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage8.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage8.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CCpResource build/Debug-iphonesimulator/Rage.app/rage9.png rage9.png
+s292746868.272399
+e292746868.289049
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Rage.app/rage9.png
+xrage9.png
+lSLF07#2@14"Copy rage9.png292746868#292746868#0(0"0(0#0#38"/Users/nick/rage/iphone/Rage/rage9.png4300911832#420"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nick/rage/iphone/Rage/rage9.png /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
+CGenerateDSYMFile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app.dSYM /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage
+s292746868.532170
+e292746868.546548
+r1
+xGenerateDSYMFile
+x/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app.dSYM
+x/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Rage.app.dSYM build/Debug-iphonesimulator/Rage.app/Rage292746868#292746868#0(0"0(0#0#70"/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage4300911832#344"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage -o /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app.dSYM0#
+
+CLd /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage normal i386
+s292746868.510204
+e292746868.532064
+r1
+xLd
+x/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage
+xnormal
+xi386
+lSLF07#2@75"Link /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage292746868#292746868#0(0"0(0#0#0"4300911832#799"    cd /Users/nick/rage/iphone/Rage    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator -F/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator -filelist /Users/nick/rage/iphone/Rage/build/Rage.build/Debug-iphonesimulator/Rage.build/Objects-normal/i386/Rage.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Rage0#
+
+CProcessInfoPlistFile /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Info.plist Rage-Info.plist
+s292746867.933625
+e292746867.940502
+r1
+xProcessInfoPlistFile
+x/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Info.plist
+xRage-Info.plist
+lSLF07#2@23"Process Rage-Info.plist292746867#292746867#0(0"0(0#0#44"/Users/nick/rage/iphone/Rage/Rage-Info.plist32933040433463412#440"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Rage-Info.plist -genpkginfo /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app/Info.plist0#
+
+CProcessPCH /var/folders/z2/z2XnqszDE4a+exWuvV68SU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Rage_Prefix-bzbjxvullwgtlhcaqsvpvaeyeppl/Rage_Prefix.pch.gch Rage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app
+s292746868.546651
+e292746868.550452
+r1
+xTouch
+x/Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app
+lSLF07#2@71"Touch /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app292746868#292746868#0(0"0(0#0#0"4300911832#255"    cd /Users/nick/rage/iphone/Rage    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nick/rage/iphone/Rage/build/Debug-iphonesimulator/Rage.app0#
+
