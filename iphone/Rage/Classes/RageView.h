@@ -10,12 +10,8 @@
 
 
 @interface RageView : UIViewController {
-  UILabel* label;
-
+    NSMutableArray * img_array;
 }
-
-@property (nonatomic, retain) IBOutlet UILabel * label;
-
 -(IBAction)rageOn:(id)sender;
 
 @end

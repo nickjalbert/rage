@@ -15,25 +15,27 @@
 @synthesize viewController;
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-  RageView *avc = [[RageView alloc] initWithNibName:@"RageView" bundle:[NSBundle mainBundle]];
-  
-  self.viewController = avc;
-  [avc release];
-  
-  UIView *controllerView = [viewController view];
-  [window addSubview:controllerView];
-    // Override point for customization after application launch
-	
+- (BOOL)application:(UIApplication *)application 
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    RageView *avc = [[RageView alloc] 
+        initWithNibName:@"RageView" bundle:[NSBundle mainBundle]];
+
+    self.viewController = avc;
+    [avc release];
+
+    UIView *controllerView = [viewController view];
+    [window addSubview:controllerView];
+
     [window makeKeyAndVisible];
-	
-	return YES;
+
+    return YES;
 }
 
 
 - (void)dealloc {
     [window release];
-  [viewController release];
+    [viewController release];
     [super dealloc];
 }
 
