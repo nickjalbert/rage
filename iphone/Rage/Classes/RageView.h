@@ -11,7 +11,13 @@
 
 @interface RageView : UIViewController {
     NSMutableArray * img_array;
+    IBOutlet UIImageView * my_img;
+    IBOutlet UIImageView * animation_img;
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView * my_img;
+@property (nonatomic, retain) IBOutlet UIImageView * animation_img;
 -(IBAction)rageOn:(id)sender;
+
 
 @end
