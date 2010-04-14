@@ -30,6 +30,9 @@
 		0133E9201172EB3600691E4E /* rage17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0133E90C1172EB3500691E4E /* rage17.png */; };
 		0133E9211172EB3600691E4E /* rage18.png in Resources */ = {isa = PBXBuildFile; fileRef = 0133E90D1172EB3600691E4E /* rage18.png */; };
 		0133E9221172EB3600691E4E /* rage19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0133E90E1172EB3600691E4E /* rage19.png */; };
+		0137F76A11752AF50022CB97 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137F76911752AF50022CB97 /* CoreLocation.framework */; };
+		0137F77D11752BCF0022CB97 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137F77C11752BCF0022CB97 /* MyCLController.m */; };
+		0137F825117541550022CB97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137F824117541550022CB97 /* QuartzCore.framework */; };
 		1D3623260D0F684500981E51 /* RageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RageAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -63,6 +66,10 @@
 		0133E90C1172EB3500691E4E /* rage17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage17.png; sourceTree = "<group>"; };
 		0133E90D1172EB3600691E4E /* rage18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage18.png; sourceTree = "<group>"; };
 		0133E90E1172EB3600691E4E /* rage19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage19.png; sourceTree = "<group>"; };
+		0137F76911752AF50022CB97 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0137F77B11752BCF0022CB97 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
+		0137F77C11752BCF0022CB97 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
+		0137F824117541550022CB97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* RageAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* RageAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageAppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +90,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				0137F76A11752AF50022CB97 /* CoreLocation.framework in Frameworks */,
+				0137F825117541550022CB97 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +134,8 @@
 				0133E8171172C84400691E4E /* RageView.h */,
 				0133E8181172C84400691E4E /* RageView.m */,
 				0133E8191172C84400691E4E /* RageView.xib */,
+				0137F77B11752BCF0022CB97 /* MyCLController.h */,
+				0137F77C11752BCF0022CB97 /* MyCLController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -174,6 +185,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				0137F76911752AF50022CB97 /* CoreLocation.framework */,
+				0137F824117541550022CB97 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,6 +269,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RageAppDelegate.m in Sources */,
 				0133E81A1172C84400691E4E /* RageView.m in Sources */,
+				0137F77D11752BCF0022CB97 /* MyCLController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
