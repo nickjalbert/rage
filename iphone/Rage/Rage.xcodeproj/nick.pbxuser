@@ -56,7 +56,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 18";
 		rLen = 0;
-		rLoc = 396;
+		rLoc = 378;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 0;
@@ -110,16 +110,16 @@
 	0133E8171172C84400691E4E /* RageView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {772, 441}}";
-			sepNavSelRange = "{459, 0}";
-			sepNavVisRange = "{0, 804}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 545}";
 			sepNavWindowFrame = "{{15, 63}, {830, 815}}";
 		};
 	};
 	0133E8181172C84400691E4E /* RageView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {901, 1833}}";
-			sepNavSelRange = "{1990, 0}";
-			sepNavVisRange = "{1449, 1216}";
+			sepNavIntBoundsRect = "{{0, 0}, {880, 1079}}";
+			sepNavSelRange = "{467, 0}";
+			sepNavVisRange = "{1252, 832}";
 			sepNavWindowFrame = "{{49, 63}, {830, 815}}";
 		};
 	};
@@ -149,7 +149,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 2505;
+		rLoc = 3328;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 508;
@@ -169,7 +169,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 52";
 		rLen = 0;
-		rLoc = 3048;
+		rLoc = 3871;
 		rType = 0;
 		vrLen = 1361;
 		vrLoc = 885;
@@ -179,16 +179,16 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 37";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 3255;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 886;
 	};
 	0137F77B11752BCF0022CB97 /* MyCLController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {772, 441}}";
+			sepNavIntBoundsRect = "{{0, 0}, {772, 442}}";
 			sepNavSelRange = "{180, 0}";
-			sepNavVisRange = "{0, 848}";
+			sepNavVisRange = "{0, 785}";
 		};
 	};
 	0137F77C11752BCF0022CB97 /* MyCLController.m */ = {
@@ -223,7 +223,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 13";
 		rLen = 0;
-		rLoc = 288;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -253,7 +253,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 90";
 		rLen = 0;
-		rLoc = 4207;
+		rLoc = 5030;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 1831;
@@ -302,7 +302,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 272;
@@ -312,7 +312,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 249;
@@ -322,7 +322,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 1156;
 		vrLoc = 249;
@@ -332,7 +332,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 56";
 		rLen = 0;
-		rLoc = 3045;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 590;
 		vrLoc = 1330;
@@ -371,7 +371,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 18;
@@ -421,7 +421,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 3;
@@ -441,7 +441,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 23";
 		rLen = 86;
-		rLoc = 711;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 0;
@@ -451,7 +451,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1710;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 18;
@@ -461,7 +461,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 157;
@@ -481,7 +481,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 857;
 		vrLoc = 0;
@@ -491,7 +491,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 18";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 274;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 0;
@@ -501,7 +501,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 18";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 274;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 0;
@@ -551,7 +551,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 18";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 274;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 0;
@@ -561,7 +561,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 84";
 		rLen = 0;
-		rLoc = 3855;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 2090;
@@ -591,7 +591,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 84";
 		rLen = 0;
-		rLoc = 3855;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 2021;
@@ -601,7 +601,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 84";
 		rLen = 0;
-		rLoc = 3855;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 2021;
@@ -611,7 +611,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 84";
 		rLen = 0;
-		rLoc = 3855;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 2021;
@@ -641,7 +641,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 14";
 		rLen = 32;
-		rLoc = 289;
+		rLoc = 280;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -651,7 +651,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 24";
 		rLen = 0;
-		rLoc = 997;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 155;
@@ -661,7 +661,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 1165;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 202;
@@ -671,7 +671,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 1165;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 249;
@@ -681,7 +681,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 1396;
+		rLoc = 1667;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 249;
@@ -691,7 +691,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 1396;
+		rLoc = 1667;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 249;
@@ -701,7 +701,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 14";
 		rLen = 32;
-		rLoc = 289;
+		rLoc = 280;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -711,7 +711,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 44";
 		rLen = 0;
-		rLoc = 1653;
+		rLoc = 2476;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 0;
@@ -721,7 +721,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 47";
 		rLen = 0;
-		rLoc = 1658;
+		rLoc = 2481;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 882;
@@ -731,7 +731,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 14";
 		rLen = 32;
-		rLoc = 289;
+		rLoc = 280;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -741,7 +741,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 45";
 		rLen = 0;
-		rLoc = 1621;
+		rLoc = 2312;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 882;
@@ -751,7 +751,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 47";
 		rLen = 0;
-		rLoc = 1624;
+		rLoc = 2447;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 882;
@@ -790,7 +790,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 44";
 		rLen = 0;
-		rLoc = 1611;
+		rLoc = 2257;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 587;
@@ -800,7 +800,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 14";
 		rLen = 32;
-		rLoc = 289;
+		rLoc = 280;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -810,7 +810,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 44";
 		rLen = 0;
-		rLoc = 1611;
+		rLoc = 2257;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 587;
@@ -820,7 +820,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 49";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 2598;
 		rType = 0;
 		vrLen = 1275;
 		vrLoc = 881;
@@ -840,7 +840,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 49";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 2598;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 247;
@@ -850,7 +850,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 49";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 2598;
 		rType = 0;
 		vrLen = 1265;
 		vrLoc = 376;
@@ -860,7 +860,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 26";
 		rLen = 0;
-		rLoc = 627;
+		rLoc = 629;
 		rType = 0;
 		vrLen = 1226;
 		vrLoc = 154;
@@ -900,7 +900,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 18";
 		rLen = 0;
-		rLoc = 478;
+		rLoc = 460;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 0;
@@ -910,7 +910,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 27";
 		rLen = 0;
-		rLoc = 646;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 154;
@@ -920,7 +920,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 24";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 504;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 154;
@@ -930,7 +930,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 26";
 		rLen = 0;
-		rLoc = 620;
+		rLoc = 622;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 154;
@@ -940,7 +940,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 51";
 		rLen = 0;
-		rLoc = 1570;
+		rLoc = 2216;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 862;
@@ -950,7 +950,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 55";
 		rLen = 0;
-		rLoc = 1653;
+		rLoc = 2476;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 862;
@@ -960,7 +960,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 58";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 862;
@@ -970,7 +970,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 18";
 		rLen = 0;
-		rLoc = 459;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 804;
 		vrLoc = 0;
@@ -980,7 +980,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 21";
 		rLen = 0;
-		rLoc = 344;
+		rLoc = 345;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 3;
@@ -990,7 +990,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 67";
 		rLen = 0;
-		rLoc = 2126;
+		rLoc = 2949;
 		rType = 0;
 		vrLen = 1087;
 		vrLoc = 1619;
@@ -1000,17 +1000,671 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 62";
 		rLen = 0;
-		rLoc = 1990;
+		rLoc = 2813;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 1449;
+	};
+	0137F854117548040022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 498;
+	};
+	0137F857117548150022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 498;
+	};
+	0137F85A1175481F0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 498;
+	};
+	0137F85D1175484B0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 42";
+		rLen = 0;
+		rLoc = 1355;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F860117548590022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1078;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F863117548670022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1078;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F8661175487D0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1081;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F8691175488F0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1073;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F86C117548A20022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1078;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F86F117548B20022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1082;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F872117548BD0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 498;
+	};
+	0137F875117548C90022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 1194;
+		vrLoc = 498;
+	};
+	0137F876117549770022CB97 /* rage-meter.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "rage-meter.png";
+		path = "/Users/nick/Desktop/rage-meter.png";
+		sourceTree = "<absolute>";
+	};
+	0137F87A117549880022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0137F77C11752BCF0022CB97 /* MyCLController.m */;
+		name = "MyCLController.m: 47";
+		rLen = 0;
+		rLoc = 862;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 310;
+	};
+	0137F87B117549880022CB97 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Invalid initializer";
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 74;
+		rType = 1;
+	};
+	0137F87C117549880022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 55";
+		rLen = 0;
+		rLoc = 2217;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 325;
+	};
+	0137F87F117549B80022CB97 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0137F876117549770022CB97 /* rage-meter.png */;
+	};
+	0137F880117549B80022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0137F77B11752BCF0022CB97 /* MyCLController.h */;
+		name = "MyCLController.h: 8";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 0;
+	};
+	0137F881117549B80022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 18";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 0;
+	};
+	0137F882117549B80022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 2;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 451;
+	};
+	0137F883117549B80022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 43";
+		rLen = 0;
+		rLoc = 1245;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 584;
+	};
+	0137F886117549D20022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 584;
+	};
+	0137F88D11754B4C0022CB97 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0137F88711754B020022CB97 /* rage-meter.png */;
+	};
+	0137F88E11754B4C0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 584;
+	};
+	0137F88F11754B4C0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 43";
+		rLen = 0;
+		rLoc = 1349;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 584;
+	};
+	0137F89211754B5C0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 584;
+	};
+	0137F89511754B720022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 584;
+	};
+	0137F89811754B7F0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 584;
+	};
+	0137F89B11754B8E0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 39";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 584;
+	};
+	0137F89E11754BCF0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 49";
+		rLen = 0;
+		rLoc = 1586;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 682;
+	};
+	0137F8A111754C180022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 60";
+		rLen = 0;
+		rLoc = 2396;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 1351;
+	};
+	0137F8A611754C420022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 59";
+		rLen = 0;
+		rLoc = 2312;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 1351;
+	};
+	0137F8A911754C740022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 50";
+		rLen = 0;
+		rLoc = 1583;
+		rType = 0;
+		vrLen = 1238;
+		vrLoc = 992;
+	};
+	0137F8AC11754C890022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 46";
+		rLen = 0;
+		rLoc = 1425;
+		rType = 0;
+		vrLen = 1238;
+		vrLoc = 992;
+	};
+	0137F8AF11754CB00022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 46";
+		rLen = 0;
+		rLoc = 1425;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 992;
+	};
+	0137F8B211754CC90022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 62";
+		rLen = 0;
+		rLoc = 2394;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 1089;
+	};
+	0137F8B511754CD80022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 62";
+		rLen = 0;
+		rLoc = 2398;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 1089;
+	};
+	0137F8B811754D2B0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 60";
+		rLen = 0;
+		rLoc = 2175;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 1716;
+	};
+	0137F8BB11756A880022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 62";
+		rLen = 0;
+		rLoc = 2211;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 1716;
+	};
+	0137F8BE11756BDB0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 62";
+		rLen = 0;
+		rLoc = 2175;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 1716;
+	};
+	0137F8C311756CA90022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 61";
+		rLen = 0;
+		rLoc = 1900;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 1565;
+	};
+	0137F8C611756D170022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 66";
+		rLen = 0;
+		rLoc = 2212;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 1354;
+	};
+	0137F8C911756D310022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 66";
+		rLen = 0;
+		rLoc = 2200;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 1354;
+	};
+	0137F8CC11756D890022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 68";
+		rLen = 0;
+		rLoc = 2211;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 1354;
+	};
+	0137F8CF11756DA50022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 74";
+		rLen = 0;
+		rLoc = 2396;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 1528;
+	};
+	0137F8D211756DDF0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 68";
+		rLen = 0;
+		rLoc = 2141;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 999;
+	};
+	0137F8D511756DF10022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 65";
+		rLen = 0;
+		rLoc = 2058;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 999;
+	};
+	0137F8DB11756EAD0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 65";
+		rLen = 0;
+		rLoc = 2058;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 999;
+	};
+	0137F8DC11756EAD0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 155";
+		rLen = 0;
+		rLoc = 4618;
+		rType = 0;
+		vrLen = 979;
+		vrLoc = 1140;
+	};
+	0137F8DF11756F3E0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 87";
+		rLen = 0;
+		rLoc = 2226;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	0137F8E3117570040022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 16";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	0137F8E4117570040022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 85";
+		rLen = 0;
+		rLoc = 2168;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 0;
+	};
+	0137F8E51175702B0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 36";
+		rLen = 0;
+		rLoc = 1105;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 261;
+	};
+	0137F8E61175702B0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RageAppDelegate.h */;
+		name = "RageAppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 424;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	0137F8E71175702B0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 18";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 0;
+	};
+	0137F8EA1175705F0022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 23";
+		rLen = 0;
+		rLoc = 546;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 0;
+	};
+	0137F8F0117570E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 23";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 262;
+	};
+	0137F8F1117570E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 12";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 0;
+	};
+	0137F8F2117570E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 16";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	0137F900117571410022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 86";
+		rLen = 0;
+		rLoc = 2168;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 720;
+	};
+	0137F901117571440022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 16";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	0137F902117571440022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 23";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 1273;
+		vrLoc = 240;
+	};
+	0137F903117571440022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 23";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 1253;
+	};
+	0137F90E117572E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RageAppDelegate.m */;
+		name = "RageAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 741;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 27;
+	};
+	0137F90F117572E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8171172C84400691E4E /* RageView.h */;
+		name = "RageView.h: 16";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 0;
+	};
+	0137F910117572E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0133E8181172C84400691E4E /* RageView.m */;
+		name = "RageView.m: 23";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 1252;
+	};
+	0137F911117572E30022CB97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0137F77B11752BCF0022CB97 /* MyCLController.h */;
+		name = "MyCLController.h: 11";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 0;
 	};
 	016EB17A1173098B0086A5D9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 50";
 		rLen = 0;
-		rLoc = 4153;
+		rLoc = 4976;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 3;
@@ -1020,7 +1674,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 50";
 		rLen = 0;
-		rLoc = 4153;
+		rLoc = 4976;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 3;
@@ -1034,7 +1688,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 50";
 		rLen = 0;
-		rLoc = 4153;
+		rLoc = 4976;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 3;
@@ -1044,7 +1698,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 22";
 		rLen = 0;
-		rLoc = 544;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 0;
@@ -1054,7 +1708,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 18";
 		rLen = 0;
-		rLoc = 997;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 858;
 		vrLoc = 129;
@@ -1064,7 +1718,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 14";
 		rLen = 0;
-		rLoc = 219;
+		rLoc = 220;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 129;
@@ -1074,7 +1728,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3382;
+		rLoc = 4205;
 		rType = 0;
 		vrLen = 885;
 		vrLoc = 129;
@@ -1084,7 +1738,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 28";
 		rLen = 0;
-		rLoc = 2896;
+		rLoc = 3719;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 129;
@@ -1094,7 +1748,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3382;
+		rLoc = 4205;
 		rType = 0;
 		vrLen = 881;
 		vrLoc = 129;
@@ -1104,7 +1758,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 22";
 		rLen = 0;
-		rLoc = 544;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 0;
@@ -1114,7 +1768,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3007;
+		rLoc = 3830;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 70;
@@ -1134,7 +1788,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3007;
+		rLoc = 3830;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 70;
@@ -1144,7 +1798,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 22";
 		rLen = 0;
-		rLoc = 544;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 0;
@@ -1154,7 +1808,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3007;
+		rLoc = 3830;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 70;
@@ -1164,7 +1818,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3007;
+		rLoc = 3830;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 70;
@@ -1174,7 +1828,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 32";
 		rLen = 0;
-		rLoc = 3007;
+		rLoc = 3830;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 70;
@@ -1184,7 +1838,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 17";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -1204,7 +1858,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 22";
 		rLen = 0;
-		rLoc = 544;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 0;
@@ -1214,7 +1868,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 24";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 786;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1224,7 +1878,7 @@
 		fRef = 0133E8171172C84400691E4E /* RageView.h */;
 		name = "RageView.h: 24";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 786;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1234,7 +1888,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 53";
 		rLen = 0;
-		rLoc = 4212;
+		rLoc = 5035;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 0;
@@ -1244,7 +1898,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 36";
 		rLen = 0;
-		rLoc = 3771;
+		rLoc = 4594;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 30;
@@ -1254,7 +1908,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 3771;
+		rLoc = 4594;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 295;
@@ -1264,7 +1918,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 3771;
+		rLoc = 4594;
 		rType = 0;
 		vrLen = 855;
 		vrLoc = 247;
@@ -1274,7 +1928,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 3771;
+		rLoc = 4594;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 220;
@@ -1284,7 +1938,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 37";
 		rLen = 0;
-		rLoc = 3549;
+		rLoc = 4372;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 220;
@@ -1294,7 +1948,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 33";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 220;
@@ -1304,7 +1958,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 35";
 		rLen = 0;
-		rLoc = 3167;
+		rLoc = 3990;
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 220;
@@ -1314,7 +1968,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 43";
 		rLen = 0;
-		rLoc = 3346;
+		rLoc = 4169;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 220;
@@ -1324,7 +1978,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 220;
@@ -1334,7 +1988,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 44";
 		rLen = 0;
-		rLoc = 3346;
+		rLoc = 4169;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 220;
@@ -1344,7 +1998,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 3297;
+		rLoc = 4120;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 220;
@@ -1354,7 +2008,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 3290;
+		rLoc = 4113;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 220;
@@ -1364,7 +2018,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 3299;
+		rLoc = 4122;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 220;
@@ -1374,7 +2028,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 39";
 		rLen = 0;
-		rLoc = 3299;
+		rLoc = 4122;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 220;
@@ -1384,7 +2038,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 33";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 220;
@@ -1394,7 +2048,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 33";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 220;
@@ -1404,7 +2058,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 35";
 		rLen = 0;
-		rLoc = 3032;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 220;
@@ -1414,7 +2068,7 @@
 		comments = "Invalid operands to binary == (have 'struct UIView' and 'void *')";
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		rLen = 1;
-		rLoc = 48;
+		rLoc = 54;
 		rType = 1;
 	};
 	01FC23CE117406F600970F64 /* PBXTextBookmark */ = {
@@ -1422,7 +2076,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 27";
 		rLen = 0;
-		rLoc = 1466;
+		rLoc = 1737;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 293;
@@ -1432,7 +2086,7 @@
 		comments = "Variable-sized object may not be initialized";
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		rLen = 1;
-		rLoc = 48;
+		rLoc = 54;
 		rType = 1;
 	};
 	01FC23D2117406FD00970F64 /* PBXTextBookmark */ = {
@@ -1440,7 +2094,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 26";
 		rLen = 0;
-		rLoc = 1466;
+		rLoc = 1737;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 0;
@@ -1450,7 +2104,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 27";
 		rLen = 0;
-		rLoc = 2466;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 133;
@@ -1460,7 +2114,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 44";
 		rLen = 0;
-		rLoc = 3106;
+		rLoc = 3929;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 248;
@@ -1470,7 +2124,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 26";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 1624;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 401;
@@ -1480,7 +2134,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 46";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 401;
@@ -1490,7 +2144,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 46";
 		rLen = 0;
-		rLoc = 3035;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 1327;
 		vrLoc = 401;
@@ -1500,7 +2154,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 24";
 		rLen = 0;
-		rLoc = 1081;
+		rLoc = 1084;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 220;
@@ -1510,7 +2164,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 31";
 		rLen = 0;
-		rLoc = 1472;
+		rLoc = 1743;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 360;
@@ -1520,7 +2174,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 31";
 		rLen = 0;
-		rLoc = 2466;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 360;
@@ -1530,7 +2184,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 31";
 		rLen = 0;
-		rLoc = 2466;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 360;
@@ -1540,7 +2194,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 37";
 		rLen = 0;
-		rLoc = 2629;
+		rLoc = 3452;
 		rType = 0;
 		vrLen = 1183;
 		vrLoc = 591;
@@ -1550,7 +2204,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 41";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3509;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 591;
@@ -1560,7 +2214,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 34";
 		rLen = 0;
-		rLoc = 2466;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 591;
@@ -1570,7 +2224,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 38";
 		rLen = 0;
-		rLoc = 2638;
+		rLoc = 3461;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 621;
@@ -1580,7 +2234,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 89";
 		rLen = 0;
-		rLoc = 4238;
+		rLoc = 5061;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 508;
@@ -1590,7 +2244,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 36";
 		rLen = 0;
-		rLoc = 2505;
+		rLoc = 3328;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 508;
@@ -1600,7 +2254,7 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 36";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 3306;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 508;
@@ -1610,23 +2264,23 @@
 		fRef = 0133E8181172C84400691E4E /* RageView.m */;
 		name = "RageView.m: 36";
 		rLen = 0;
-		rLoc = 2505;
+		rLoc = 3328;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 508;
 	};
 	1D3623240D0F684500981E51 /* RageAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {772, 460}}";
+			sepNavIntBoundsRect = "{{0, 0}, {772, 441}}";
 			sepNavSelRange = "{424, 0}";
 			sepNavVisRange = "{0, 424}";
 		};
 	};
 	1D3623250D0F684500981E51 /* RageAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {772, 572}}";
-			sepNavSelRange = "{393, 0}";
-			sepNavVisRange = "{3, 713}";
+			sepNavIntBoundsRect = "{{0, 0}, {772, 546}}";
+			sepNavSelRange = "{741, 0}";
+			sepNavVisRange = "{27, 707}";
 			sepNavWindowFrame = "{{15, 63}, {830, 815}}";
 		};
 	};
@@ -1767,6 +2421,72 @@
 			0137F8481175449E0022CB97 /* PBXTextBookmark */ = 0137F8481175449E0022CB97 /* PBXTextBookmark */;
 			0137F8491175449E0022CB97 /* PBXTextBookmark */ = 0137F8491175449E0022CB97 /* PBXTextBookmark */;
 			0137F84E117545640022CB97 /* PBXTextBookmark */ = 0137F84E117545640022CB97 /* PBXTextBookmark */;
+			0137F854117548040022CB97 /* PBXTextBookmark */ = 0137F854117548040022CB97 /* PBXTextBookmark */;
+			0137F857117548150022CB97 /* PBXTextBookmark */ = 0137F857117548150022CB97 /* PBXTextBookmark */;
+			0137F85A1175481F0022CB97 /* PBXTextBookmark */ = 0137F85A1175481F0022CB97 /* PBXTextBookmark */;
+			0137F85D1175484B0022CB97 /* PBXTextBookmark */ = 0137F85D1175484B0022CB97 /* PBXTextBookmark */;
+			0137F860117548590022CB97 /* PBXTextBookmark */ = 0137F860117548590022CB97 /* PBXTextBookmark */;
+			0137F863117548670022CB97 /* PBXTextBookmark */ = 0137F863117548670022CB97 /* PBXTextBookmark */;
+			0137F8661175487D0022CB97 /* PBXTextBookmark */ = 0137F8661175487D0022CB97 /* PBXTextBookmark */;
+			0137F8691175488F0022CB97 /* PBXTextBookmark */ = 0137F8691175488F0022CB97 /* PBXTextBookmark */;
+			0137F86C117548A20022CB97 /* PBXTextBookmark */ = 0137F86C117548A20022CB97 /* PBXTextBookmark */;
+			0137F86F117548B20022CB97 /* PBXTextBookmark */ = 0137F86F117548B20022CB97 /* PBXTextBookmark */;
+			0137F872117548BD0022CB97 /* PBXTextBookmark */ = 0137F872117548BD0022CB97 /* PBXTextBookmark */;
+			0137F875117548C90022CB97 /* PBXTextBookmark */ = 0137F875117548C90022CB97 /* PBXTextBookmark */;
+			0137F87A117549880022CB97 /* PBXTextBookmark */ = 0137F87A117549880022CB97 /* PBXTextBookmark */;
+			0137F87B117549880022CB97 /* XCBuildMessageTextBookmark */ = 0137F87B117549880022CB97 /* XCBuildMessageTextBookmark */;
+			0137F87C117549880022CB97 /* PBXTextBookmark */ = 0137F87C117549880022CB97 /* PBXTextBookmark */;
+			0137F87F117549B80022CB97 /* PBXBookmark */ = 0137F87F117549B80022CB97 /* PBXBookmark */;
+			0137F880117549B80022CB97 /* PBXTextBookmark */ = 0137F880117549B80022CB97 /* PBXTextBookmark */;
+			0137F881117549B80022CB97 /* PBXTextBookmark */ = 0137F881117549B80022CB97 /* PBXTextBookmark */;
+			0137F882117549B80022CB97 /* PBXTextBookmark */ = 0137F882117549B80022CB97 /* PBXTextBookmark */;
+			0137F883117549B80022CB97 /* PBXTextBookmark */ = 0137F883117549B80022CB97 /* PBXTextBookmark */;
+			0137F886117549D20022CB97 /* PBXTextBookmark */ = 0137F886117549D20022CB97 /* PBXTextBookmark */;
+			0137F88D11754B4C0022CB97 /* PBXBookmark */ = 0137F88D11754B4C0022CB97 /* PBXBookmark */;
+			0137F88E11754B4C0022CB97 /* PBXTextBookmark */ = 0137F88E11754B4C0022CB97 /* PBXTextBookmark */;
+			0137F88F11754B4C0022CB97 /* PBXTextBookmark */ = 0137F88F11754B4C0022CB97 /* PBXTextBookmark */;
+			0137F89211754B5C0022CB97 /* PBXTextBookmark */ = 0137F89211754B5C0022CB97 /* PBXTextBookmark */;
+			0137F89511754B720022CB97 /* PBXTextBookmark */ = 0137F89511754B720022CB97 /* PBXTextBookmark */;
+			0137F89811754B7F0022CB97 /* PBXTextBookmark */ = 0137F89811754B7F0022CB97 /* PBXTextBookmark */;
+			0137F89B11754B8E0022CB97 /* PBXTextBookmark */ = 0137F89B11754B8E0022CB97 /* PBXTextBookmark */;
+			0137F89E11754BCF0022CB97 /* PBXTextBookmark */ = 0137F89E11754BCF0022CB97 /* PBXTextBookmark */;
+			0137F8A111754C180022CB97 /* PBXTextBookmark */ = 0137F8A111754C180022CB97 /* PBXTextBookmark */;
+			0137F8A611754C420022CB97 /* PBXTextBookmark */ = 0137F8A611754C420022CB97 /* PBXTextBookmark */;
+			0137F8A911754C740022CB97 /* PBXTextBookmark */ = 0137F8A911754C740022CB97 /* PBXTextBookmark */;
+			0137F8AC11754C890022CB97 /* PBXTextBookmark */ = 0137F8AC11754C890022CB97 /* PBXTextBookmark */;
+			0137F8AF11754CB00022CB97 /* PBXTextBookmark */ = 0137F8AF11754CB00022CB97 /* PBXTextBookmark */;
+			0137F8B211754CC90022CB97 /* PBXTextBookmark */ = 0137F8B211754CC90022CB97 /* PBXTextBookmark */;
+			0137F8B511754CD80022CB97 /* PBXTextBookmark */ = 0137F8B511754CD80022CB97 /* PBXTextBookmark */;
+			0137F8B811754D2B0022CB97 /* PBXTextBookmark */ = 0137F8B811754D2B0022CB97 /* PBXTextBookmark */;
+			0137F8BB11756A880022CB97 /* PBXTextBookmark */ = 0137F8BB11756A880022CB97 /* PBXTextBookmark */;
+			0137F8BE11756BDB0022CB97 /* PBXTextBookmark */ = 0137F8BE11756BDB0022CB97 /* PBXTextBookmark */;
+			0137F8C311756CA90022CB97 /* PBXTextBookmark */ = 0137F8C311756CA90022CB97 /* PBXTextBookmark */;
+			0137F8C611756D170022CB97 /* PBXTextBookmark */ = 0137F8C611756D170022CB97 /* PBXTextBookmark */;
+			0137F8C911756D310022CB97 /* PBXTextBookmark */ = 0137F8C911756D310022CB97 /* PBXTextBookmark */;
+			0137F8CC11756D890022CB97 /* PBXTextBookmark */ = 0137F8CC11756D890022CB97 /* PBXTextBookmark */;
+			0137F8CF11756DA50022CB97 /* PBXTextBookmark */ = 0137F8CF11756DA50022CB97 /* PBXTextBookmark */;
+			0137F8D211756DDF0022CB97 /* PBXTextBookmark */ = 0137F8D211756DDF0022CB97 /* PBXTextBookmark */;
+			0137F8D511756DF10022CB97 /* PBXTextBookmark */ = 0137F8D511756DF10022CB97 /* PBXTextBookmark */;
+			0137F8DB11756EAD0022CB97 /* PBXTextBookmark */ = 0137F8DB11756EAD0022CB97 /* PBXTextBookmark */;
+			0137F8DC11756EAD0022CB97 /* PBXTextBookmark */ = 0137F8DC11756EAD0022CB97 /* PBXTextBookmark */;
+			0137F8DF11756F3E0022CB97 /* PBXTextBookmark */ = 0137F8DF11756F3E0022CB97 /* PBXTextBookmark */;
+			0137F8E3117570040022CB97 /* PBXTextBookmark */ = 0137F8E3117570040022CB97 /* PBXTextBookmark */;
+			0137F8E4117570040022CB97 /* PBXTextBookmark */ = 0137F8E4117570040022CB97 /* PBXTextBookmark */;
+			0137F8E51175702B0022CB97 /* PBXTextBookmark */ = 0137F8E51175702B0022CB97 /* PBXTextBookmark */;
+			0137F8E61175702B0022CB97 /* PBXTextBookmark */ = 0137F8E61175702B0022CB97 /* PBXTextBookmark */;
+			0137F8E71175702B0022CB97 /* PBXTextBookmark */ = 0137F8E71175702B0022CB97 /* PBXTextBookmark */;
+			0137F8EA1175705F0022CB97 /* PBXTextBookmark */ = 0137F8EA1175705F0022CB97 /* PBXTextBookmark */;
+			0137F8F0117570E30022CB97 /* PBXTextBookmark */ = 0137F8F0117570E30022CB97 /* PBXTextBookmark */;
+			0137F8F1117570E30022CB97 /* PBXTextBookmark */ = 0137F8F1117570E30022CB97 /* PBXTextBookmark */;
+			0137F8F2117570E30022CB97 /* PBXTextBookmark */ = 0137F8F2117570E30022CB97 /* PBXTextBookmark */;
+			0137F900117571410022CB97 /* PBXTextBookmark */ = 0137F900117571410022CB97 /* PBXTextBookmark */;
+			0137F901117571440022CB97 /* PBXTextBookmark */ = 0137F901117571440022CB97 /* PBXTextBookmark */;
+			0137F902117571440022CB97 /* PBXTextBookmark */ = 0137F902117571440022CB97 /* PBXTextBookmark */;
+			0137F903117571440022CB97 /* PBXTextBookmark */ = 0137F903117571440022CB97 /* PBXTextBookmark */;
+			0137F90E117572E30022CB97 /* PBXTextBookmark */ = 0137F90E117572E30022CB97 /* PBXTextBookmark */;
+			0137F90F117572E30022CB97 /* PBXTextBookmark */ = 0137F90F117572E30022CB97 /* PBXTextBookmark */;
+			0137F910117572E30022CB97 /* PBXTextBookmark */ = 0137F910117572E30022CB97 /* PBXTextBookmark */;
+			0137F911117572E30022CB97 /* PBXTextBookmark */ = 0137F911117572E30022CB97 /* PBXTextBookmark */;
 			016EB17A1173098B0086A5D9 = 016EB17A1173098B0086A5D9 /* PBXTextBookmark */;
 			016EB188117309940086A5D9 = 016EB188117309940086A5D9 /* PBXTextBookmark */;
 			018FB9961172F75200A4423B = 018FB9961172F75200A4423B /* PBXBookmark */;

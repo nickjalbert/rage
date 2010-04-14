@@ -1,10 +1,9 @@
-//
-//  RageAppDelegate.h
-//  Rage
-//
-//  Created by Nick Jalbert on 4/11/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
-//
+/*
+ * RageAppDelegate.h
+ *
+ * Author - Nick Jalbert (jalbert@cs.berkeley.edu)
+ */
+
 
 #import <UIKit/UIKit.h>
 

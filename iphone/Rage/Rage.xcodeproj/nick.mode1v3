@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,6 +269,7 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>018FB9831172F66C00A4423B</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>288765FC0DF74451002DB57D</string>
 								<string>1C37FAAC04509CD000000102</string>
@@ -275,7 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -300,7 +303,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>60 398 1041 742 0 0 1200 1898 </string>
+						<string>47 267 1041 742 0 0 1200 1898 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,14 +314,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RageView.m</string>
+								<string>MyCLController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RageView.m</string>
+										<string>MyCLController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0137F84E117545640022CB97</string>
+										<string>0137F911117572E30022CB97</string>
 										<key>history</key>
 										<array>
 											<string>0133E8511172D8E100691E4E</string>
@@ -338,13 +339,14 @@
 											<string>018FB9961172F75200A4423B</string>
 											<string>01229F061173061B0079DB86</string>
 											<string>01229F231173080F0079DB86</string>
-											<string>01229F321173088C0079DB86</string>
-											<string>01FC238F1173F4CB00970F64</string>
 											<string>0137F830117541C00022CB97</string>
 											<string>0137F831117541C00022CB97</string>
-											<string>0137F832117541C00022CB97</string>
-											<string>0137F8471175449E0022CB97</string>
-											<string>0137F8481175449E0022CB97</string>
+											<string>0137F88D11754B4C0022CB97</string>
+											<string>0137F8E61175702B0022CB97</string>
+											<string>0137F90E117572E30022CB97</string>
+											<string>0137F90F117572E30022CB97</string>
+											<string>0137F910117572E30022CB97</string>
+											<string>0137F880117549B80022CB97</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,7 +360,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {833, 473}}</string>
 								<key>RubberWindowFrame</key>
-								<string>60 398 1041 742 0 0 1200 1898 </string>
+								<string>47 267 1041 742 0 0 1200 1898 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -378,7 +380,7 @@
 								<key>Frame</key>
 								<string>{{0, 478}, {833, 223}}</string>
 								<key>RubberWindowFrame</key>
-								<string>60 398 1041 742 0 0 1200 1898 </string>
+								<string>47 267 1041 742 0 0 1200 1898 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -542,13 +544,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>0137F8F3117570E30022CB97</string>
+		<string>0137F8F4117570E30022CB97</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>0133E80B1172C7D600691E4E</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/nick/rage/iphone/Rage/Rage.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>60 398 1041 742 0 0 1200 1898 </string>
+	<string>47 267 1041 742 0 0 1200 1898 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -640,7 +644,7 @@
 			<key>WindowToolGUID</key>
 			<string>0133E80B1172C7D600691E4E</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

@@ -33,6 +33,7 @@
 		0137F76A11752AF50022CB97 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137F76911752AF50022CB97 /* CoreLocation.framework */; };
 		0137F77D11752BCF0022CB97 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137F77C11752BCF0022CB97 /* MyCLController.m */; };
 		0137F825117541550022CB97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137F824117541550022CB97 /* QuartzCore.framework */; };
+		0137F88811754B020022CB97 /* rage-meter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0137F88711754B020022CB97 /* rage-meter.png */; };
 		1D3623260D0F684500981E51 /* RageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RageAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -70,6 +71,7 @@
 		0137F77B11752BCF0022CB97 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
 		0137F77C11752BCF0022CB97 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
 		0137F824117541550022CB97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0137F88711754B020022CB97 /* rage-meter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rage-meter.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* RageAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* RageAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageAppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		018FB9831172F66C00A4423B /* img */ = {
 			isa = PBXGroup;
 			children = (
+				0137F88711754B020022CB97 /* rage-meter.png */,
 				0133E8FB1172EB3500691E4E /* rage0.png */,
 				0133E8FC1172EB3500691E4E /* rage1.png */,
 				0133E8FD1172EB3500691E4E /* rage2.png */,
@@ -256,6 +259,7 @@
 				0133E9201172EB3600691E4E /* rage17.png in Resources */,
 				0133E9211172EB3600691E4E /* rage18.png in Resources */,
 				0133E9221172EB3600691E4E /* rage19.png in Resources */,
+				0137F88811754B020022CB97 /* rage-meter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

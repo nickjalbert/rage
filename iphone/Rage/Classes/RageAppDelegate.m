@@ -1,10 +1,8 @@
-//
-//  RageAppDelegate.m
-//  Rage
-//
-//  Created by Nick Jalbert on 4/11/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
-//
+/*
+ * RageAppDelegate.m
+ *
+ * Author - Nick Jalbert (jalbert@cs.berkeley.edu)
+ */
 
 #import "RageAppDelegate.h"
 #import "RageView.h"
