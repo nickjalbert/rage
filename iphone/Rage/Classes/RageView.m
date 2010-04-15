@@ -13,9 +13,21 @@
 
 @synthesize heat_img;
 @synthesize locationLabel;
+@synthesize my_accelerometer;
+@synthesize labelX;
+@synthesize labelY;
+@synthesize labelZ;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    /* Accelerometer Tracking */
+    self.my_accelerometer = [UIAccelerometer sharedAccelerometer];
+    self.my_accelerometer.updateInterval = .1;
+    self.my_accelerometer.delegate.self;
+    labelX.text = [NSString stringWithString:@"X:  "];
+    labelY.text = [NSString stringWithString:@"Y:  "];
+    labelZ.text = [NSString stringWithString:@"Z:  "];
 
     /* Location Tracking Interface */
     locationController = [[MyCLController alloc] init];
@@ -25,6 +37,7 @@
     /*Thermometer Interface */
     UIImageView * bkg = [[UIImageView alloc] initWithFrame:CGRectMake(140, 65, 42, 220)];
     [bkg setBackgroundColor:[UIColor colorWithRed:(1.0) green:(253.0f/255.0f) blue:(253.0f/255.0f) alpha:1.0]];
+
     [self.view addSubview:bkg];
 
     heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,285,42,-20)];
@@ -35,6 +48,12 @@
     [self.view sendSubviewToBack:bkg];
     
     [bkg release];
+}
+
+- (void)accelerometer:(UIAccelerometer *) accelerometer didAccelerate:(UIAcceleration *) acceleration {
+    labelX.text = [NSString stringWithFormat:@"X:%f", acceleration.x];
+    labelY.text = [NSString stringWithFormat:@"Y:%f", acceleration.y];
+    labelZ.text = [NSString stringWithFormat:@"Z:%f", acceleration.z];
 }
 
 - (IBAction)rageOn:(id)sender {
@@ -60,7 +79,7 @@
 
 
 -(void)locationUpdate:(CLLocation *) location {
-    locationLabel.text = [location description];
+  locationLabel.text = [location description];
 }
 
 -(void)locationError:(NSError *) error{

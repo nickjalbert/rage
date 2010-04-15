@@ -15,13 +15,16 @@
 @end
 
 
-@interface MyCLController : NSObject <CLLocationManagerDelegate> {
+@interface MyCLController : NSObject <CLLocationManagerDelegate, UIAccelerometerDelegate> {
+    
     CLLocationManager *locationManager;
     id delegate;
 }
 
 @property (nonatomic, retain) CLLocationManager * locationManager;
 @property (nonatomic, assign) id delegate;
+
+
 
 -(void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *) newLocation
