@@ -5,6 +5,8 @@
  */
 
 #import "RageView.h"
+#import "ASIHTTPRequest.h"
+#import "ASIFormDataRequest.h"
 
 #define PIXEL_INCREASE_PER_RAGE 15
 #define RAGE_DECAY_SPEED 1.5
@@ -17,6 +19,9 @@
 @synthesize labelX;
 @synthesize labelY;
 @synthesize labelZ;
+@synthesize my_textview;
+@synthesize queue;
+@synthesize my_textfield;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -54,6 +59,29 @@
     labelX.text = [NSString stringWithFormat:@"X:%f", acceleration.x];
     labelY.text = [NSString stringWithFormat:@"Y:%f", acceleration.y];
     labelZ.text = [NSString stringWithFormat:@"Z:%f", acceleration.z];
+}
+
+- (IBAction) httpOn:(id)sender {
+  
+  if (![self queue]) {
+    [self setQueue:[[[NSOperationQueue alloc] init] autorelease]];
+  }
+  NSURL * url = [NSURL URLWithString:@"http://www.nickjalbert.com/test.php"];
+  ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:url];
+  NSString * mytxt = [NSString stringWithFormat:@"%@", my_textfield.text];
+  [request setPostValue:mytxt forKey:@"name"];
+  [request setDelegate:self];
+  [request setDidFinishSelector:@selector(requestDone:)];
+  [request setDidFailSelector:@selector(requestWentWrong:)];
+  [[self queue] addOperation:request];
+  //labelX.text = [NSString stringWithString:@"Hello World"];
+}
+
+- (void)requestDone:(ASIHTTPRequest *) request {
+  
+  NSString * response = [request responseString];
+  my_textview.text = @"";
+  my_textview.text = response;
 }
 
 - (IBAction)rageOn:(id)sender {
@@ -94,6 +122,15 @@
     [super viewDidUnload];
 }
 
+
+-(BOOL)textFieldShouldReturn:(UITextField *)thetxt {
+  
+  
+  if (thetxt == my_textfield) {
+    [my_textfield resignFirstResponder];
+  }
+  return YES;
+}
 
 - (void)dealloc {
     [locationController release];
