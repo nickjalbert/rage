@@ -5,6 +5,7 @@
 #include <location/location-gpsd-control.h>
 #include "const.h"
 #include "post.h"
+#include "shake.h"
 
 static void on_error(LocationGPSDControl *control, LocationGPSDControlError error, gpointer data);
 
