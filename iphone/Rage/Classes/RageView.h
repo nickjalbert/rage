@@ -25,6 +25,9 @@
         UIAccelerometer * my_accelerometer;
         NSOperationQueue * queue;
         BOOL is_frozen;
+        float curr_lat;
+        float curr_lng;
+        
     }
 
 @property (nonatomic, retain) UIAccelerometer * my_accelerometer;
@@ -37,6 +40,8 @@
 @property (nonatomic, retain) IBOutlet  UITextView  * my_textview;
 @property (nonatomic, retain) IBOutlet UILabel * locationLabel;
 @property (nonatomic) BOOL is_frozen;
+@property (nonatomic) float curr_lat;
+@property (nonatomic) float curr_lng;
 
 -(IBAction)rageOn:(id)sender;
 -(IBAction)rageFreezeToggle:(id)sender;

@@ -23,12 +23,15 @@
 @synthesize queue;
 @synthesize my_textfield;
 @synthesize is_frozen;
+@synthesize curr_lat;
+@synthesize curr_lng;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     self.is_frozen = NO;
-  
+
     /* Accelerometer Tracking */
     self.my_accelerometer = [UIAccelerometer sharedAccelerometer];
     self.my_accelerometer.updateInterval = .1;
@@ -79,35 +82,45 @@
         [self bumpThermometer];
         return;
     }
-}
+        }
 
 - (IBAction) httpOn:(id)sender {
-  [self sendRageToWeb];
+    [self sendRageToWeb];
 }
 
 -(void)sendRageToWeb {
-  if (![self queue]) {
-    [self setQueue:[[[NSOperationQueue alloc] init] autorelease]];
-  }
-  NSURL * url = [NSURL URLWithString:@"http://www.nickjalbert.com/test.php"];
-  ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:url];
-  NSString * my_name = [NSString stringWithFormat:@"%@", my_textfield.text];
-  if ([my_name length] == 0) {
-    my_name = [NSString stringWithString:@"Anon"];
-  }
-  [request setPostValue:my_name forKey:@"name"];
-  
-  CALayer * heat_layer = [heat_img layer];
-  CALayer * heat_presentation = [heat_layer presentationLayer];
-  CGRect current_disp = [heat_presentation bounds];
-  
-  float current_height = CGRectGetHeight(current_disp) - 20;
-  NSString * my_rage = [NSString stringWithFormat:@"%.1f", current_height];
-  [request setPostValue:my_rage forKey:@"rage"];
-  [request setDelegate:self];
-  [request setDidFinishSelector:@selector(requestDone:)];
-  [request setDidFailSelector:@selector(requestWentWrong:)];
-  [[self queue] addOperation:request];}
+    if (![self queue]) {
+        [self setQueue:[[[NSOperationQueue alloc] init] autorelease]];
+    }
+    NSURL * url = [NSURL URLWithString:@"http://rage.calmensvball.com/add.php"];
+    //NSURL * url = [NSURL URLWithString:@"http://www.nickjalbert.com/test2.php"];
+    ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:url];
+    /*
+       NSString * my_name = [NSString stringWithFormat:@"%@", my_textfield.text];
+       if ([my_name length] == 0) {
+       my_name = [NSString stringWithString:@"Anon"];
+       }
+    */
+    int test_id = 33;
+    NSString * str_id = [NSString stringWithFormat:@"%d", test_id];
+    [request setPostValue:str_id forKey:@"u"];
+
+    CALayer * heat_layer = [heat_img layer];
+    CALayer * heat_presentation = [heat_layer presentationLayer];
+    CGRect current_disp = [heat_presentation bounds];
+
+    float current_height = CGRectGetHeight(current_disp) - 20;
+    NSString * my_rage = [NSString stringWithFormat:@"%.1f", current_height];
+    [request setPostValue:my_rage forKey:@"r"];
+
+    [request setPostValue:[NSString stringWithFormat:@"%f", curr_lat] forKey:@"la"];
+    [request setPostValue:[NSString stringWithFormat:@"%f", curr_lng] forKey:@"lo"];
+    [request setPostValue:@"1" forKey:@"addpoint"];
+    [request setDelegate:self];
+    [request setDidFinishSelector:@selector(requestDone:)];
+    [request setDidFailSelector:@selector(requestWentWrong:)];
+    [[self queue] addOperation:request];
+}
 
 - (void)requestDone:(ASIHTTPRequest *) request {
     NSString * response = [request responseString];
@@ -176,6 +189,8 @@
 
 -(void)locationUpdate:(CLLocation *) location {
     locationLabel.text = [location description];
+    curr_lat = location.coordinate.latitude;
+    curr_lng = location.coordinate.longitude;
 }
 
 -(void)locationError:(NSError *) error{
