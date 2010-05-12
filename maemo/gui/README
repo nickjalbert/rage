@@ -1,0 +1,8 @@
+To compile in scratchbox, you need to install libqt4-dev=4.5.3~git20090723-0maemo6+0m5, as well
+as all dependencies (like core, gui, network, etc).  It's because scratchbox has Qt 4.6.2,
+while the N900s currently only use 4.5.3.  
+
+Once you have the dev packages installed: qmake, then make.  qmake builds the Makefile.
+
+The UI file was made with QtDesigner (called designer from the command line, on most systems
+with the dev packages install (I think)).
