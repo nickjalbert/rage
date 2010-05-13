@@ -48,6 +48,7 @@ void RageForm::on_submitButton_clicked(void)
 	print_all_info();
 	QMessageBox::information(this, tr("Help!!"), tr("HELLLLP!!!"),
 	                         QMessageBox::Cancel);
+	horizontalSlider->setValue(0);
 	lineEdit->clear();
 	lineEdit->setFocus();
 }
