@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = rage
 DEPENDPATH += .
 INCLUDEPATH += .
 
@@ -11,3 +11,14 @@ INCLUDEPATH += .
 HEADERS += rageform.h
 FORMS += rageform.ui
 SOURCES += main.cpp rageform.cpp
+
+CONFIG += qt
+CONFIG += debug
+
+ARCH = $$(SBOX_DPKG_INST_ARCH)
+contains(ARCH, armel) {
+	message("Making for maemo5 with GPS and such...")
+	DEFINES += __MAEMO5__
+	CONFIG += link_pkgconfig
+	PKGCONFIG += glib-2.0 liblocation
+}
