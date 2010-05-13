@@ -19,11 +19,13 @@ class RageForm : public QWidget, private Ui::RageForm
 public:
 	RageForm(QWidget *parent = 0);
 	~RageForm(void);
-	/* ugh, fucking C++... */
+	void print_all_info(void);
+	/* ugh, fucking C++.  just for debugging... */
 	void setlabel2_text(QString str);
 
 private slots:
-	void on_pushButton_clicked(void);
+	void on_submitButton_clicked(void);
+	void on_clearButton_clicked(void);
 	void on_horizontalSlider_valueChanged(int value);
 	void update_shakes(void);
 

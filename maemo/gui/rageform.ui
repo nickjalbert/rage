@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_3">
+  <layout class="QVBoxLayout" name="verticalLayout_4">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
@@ -82,7 +82,14 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="maxLength">
+      <number>140</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
@@ -102,11 +109,22 @@
       </layout>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="submitButton">
+         <property name="text">
+          <string>Submit Rage</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="clearButton">
+         <property name="text">
+          <string>Clear Comment</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </item>
@@ -121,12 +139,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>401</x>
-     <y>184</y>
+     <x>400</x>
+     <y>257</y>
     </hint>
     <hint type="destinationlabel">
      <x>424</x>
-     <y>18</y>
+     <y>86</y>
     </hint>
    </hints>
   </connection>
@@ -138,11 +156,27 @@
    <hints>
     <hint type="sourcelabel">
      <x>387</x>
-     <y>15</y>
+     <y>83</y>
     </hint>
     <hint type="destinationlabel">
-     <x>373</x>
-     <y>189</y>
+     <x>372</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clearButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>628</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>496</x>
+     <y>343</y>
     </hint>
    </hints>
   </connection>

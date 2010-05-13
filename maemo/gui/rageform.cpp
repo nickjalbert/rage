@@ -26,6 +26,8 @@ RageForm::RageForm(QWidget *parent) : QWidget(parent)
 	QTimer *timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(update_shakes()));
 	timer->start(SHAKE_UPDATE_MSEC);
+
+	lineEdit->setFocus();
 }
 
 RageForm::~RageForm(void)
@@ -33,10 +35,26 @@ RageForm::~RageForm(void)
 	delete gps;
 }
 
-void RageForm::on_pushButton_clicked(void)
+void RageForm::print_all_info(void)
 {
+	printf("Lat: %f\n", gps->get_latitude());
+	printf("Long: %f\n", gps->get_longitude());
+	printf("Rage: %d\n", rage_amt);
+	printf("Comment: %s\n", lineEdit->text().toAscii().data());
+}
+
+void RageForm::on_submitButton_clicked(void)
+{
+	print_all_info();
 	QMessageBox::information(this, tr("Help!!"), tr("HELLLLP!!!"),
 	                         QMessageBox::Cancel);
+	lineEdit->clear();
+	lineEdit->setFocus();
+}
+
+void RageForm::on_clearButton_clicked(void)
+{
+	lineEdit->setFocus();
 }
 
 void RageForm::on_horizontalSlider_valueChanged(int value)
