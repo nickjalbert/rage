@@ -12,6 +12,7 @@ HEADERS += rageform.h
 FORMS += rageform.ui
 SOURCES += main.cpp rageform.cpp
 
+QT += network
 CONFIG += qt
 CONFIG += debug
 

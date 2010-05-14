@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 #include <QtGui>
 #include "rageform.h"
 
 RageForm::RageForm(QWidget *parent) : QWidget(parent)
 {
 	setupUi(this);
+	uid = 1337; // TODO: get a better value
 	rage_amt = 0;
 	ac_cur_x = ac_cur_y = ac_cur_z = 0;
 	gps = new RageGPS(this);
@@ -20,13 +22,11 @@ RageForm::RageForm(QWidget *parent) : QWidget(parent)
 			printf("Error initializing shake data!\n");
 		fclose(ac_fd);
 	}
-
 	/* consider only setting the timer if we have the accel.  depends if we use
 	 * it for anything else. */
 	QTimer *timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(update_shakes()));
 	timer->start(SHAKE_UPDATE_MSEC);
-
 	lineEdit->setFocus();
 }
 
@@ -35,19 +35,62 @@ RageForm::~RageForm(void)
 	delete gps;
 }
 
-void RageForm::print_all_info(void)
+void RageForm::post_info(void)
 {
 	printf("Lat: %f\n", gps->get_latitude());
 	printf("Long: %f\n", gps->get_longitude());
 	printf("Rage: %d\n", rage_amt);
 	printf("Comment: %s\n", lineEdit->text().toAscii().data());
+
+	QByteArray *buf = new QByteArray();
+	buf->append("incident=<incident>");
+	buf->append("<timestamp>");
+	buf->append(QString::number(time(0), 10));
+	buf->append("</timestamp>");
+	buf->append("<uid>");
+	buf->append(QString::number(uid, 10));
+	buf->append("</uid>");
+	buf->append("<rage>");
+	buf->append(QString::number(rage_amt, 10));
+	buf->append("</rage>");
+	buf->append("<lat>");
+	buf->append(QString::number(gps->get_latitude(), 'g', 10));
+	buf->append("</lat>");
+	buf->append("<long>");
+	buf->append(QString::number(gps->get_longitude(), 'g', 10));
+	buf->append("</long>");
+	buf->append("<comment>");
+	buf->append(lineEdit->text());
+	buf->append("</comment>");
+	buf->append("</incident>");
+	/* TODO: put in the constructor and private space, reuse, etc */
+	QNetworkAccessManager *manager = new QNetworkAccessManager(this);
+	connect(manager, SIGNAL(finished(QNetworkReply*)),
+	        this, SLOT(replyFinished(QNetworkReply*)));
+	manager->post(QNetworkRequest(QUrl(RAGE_BACKEND)), *buf);
+}
+
+void RageForm::replyFinished(QNetworkReply *reply)
+{
+	#if 0
+	printf("Got reply from %s\n", reply->url().toString().toAscii().data());
+	printf("Error: %d\n", reply->error());
+	QList<QByteArray> list = reply->rawHeaderList();
+	printf("%d headers:\n", list.count());
+	for (int i = 0; i < list.size(); i++) {
+		printf("%s: ", list.at(i).data());
+		printf("%s\n", reply->rawHeader(list.at(i)).data());
+	}
+	#endif
+	reply->close();
+	reply->deleteLater();
 }
 
 void RageForm::on_submitButton_clicked(void)
 {
-	print_all_info();
-	QMessageBox::information(this, tr("Help!!"), tr("HELLLLP!!!"),
-	                         QMessageBox::Cancel);
+	post_info();
+	QMessageBox::information(this, tr("Status"), tr("Rage Sending!!!"),
+	                         QMessageBox::Ok);
 	horizontalSlider->setValue(0);
 	lineEdit->clear();
 	lineEdit->setFocus();

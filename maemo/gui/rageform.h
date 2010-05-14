@@ -2,9 +2,17 @@
 #define RAGEFORM_H
 
 #include <stdlib.h>
+
+#include <QNetworkRequest>
+#include <QNetworkReply>
+#include <QNetworkAccessManager>
+#include <QByteArray>
+
 #include "ui_rageform.h"
 
 #define ACCEL_FILE "/sys/class/i2c-adapter/i2c-3/3-001d/coord"
+#define RAGE_BACKEND "http://rage.calmensvball.com/add.php5"
+
 #define SHAKE_UPDATE_MSEC		100			/* granularity of shake testing */
 #define MIN_SHAKE_THRES			2000		/* lowest val considered a shake */
 #define MAX_SHAKE_VAL			12000		/* reasonably high observed val */
@@ -19,7 +27,7 @@ class RageForm : public QWidget, private Ui::RageForm
 public:
 	RageForm(QWidget *parent = 0);
 	~RageForm(void);
-	void print_all_info(void);
+	void post_info(void);
 	/* ugh, fucking C++.  just for debugging... */
 	void setlabel2_text(QString str);
 
@@ -28,8 +36,10 @@ private slots:
 	void on_clearButton_clicked(void);
 	void on_horizontalSlider_valueChanged(int value);
 	void update_shakes(void);
+	void replyFinished(QNetworkReply *reply);
 
 private:
+	int uid;
 	unsigned int rage_amt;
 	int ac_cur_x;
 	int ac_cur_y;
