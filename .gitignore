@@ -4,4 +4,5 @@ bin/
 maemo/gui/rage
 maemo/gui/Makefile
 maemo/gui/moc_rageform.cpp
+maemo/gui/moc_libmobkvmsg.cpp
 maemo/gui/ui_rageform.h

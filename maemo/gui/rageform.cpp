@@ -41,49 +41,18 @@ void RageForm::post_info(void)
 	printf("Long: %f\n", gps->get_longitude());
 	printf("Rage: %d\n", rage_amt);
 	printf("Comment: %s\n", lineEdit->text().toAscii().data());
+	
+	kv_msg = new MobKVMessage(QUrl(RAGE_BACKEND), this);
+	kv_msg->addKeyValue("timestamp", QString::number(time(0), 10), 0);
+	kv_msg->addKeyValue("uid", QString::number(uid, 10), 0);
+	kv_msg->addKeyValue("rage", QString::number(rage_amt, 10), 0);
+	kv_msg->addKeyValue("lat", QString::number(gps->get_latitude(), 'g', 10),
+	                    0);
+	kv_msg->addKeyValue("long", QString::number(gps->get_longitude(), 'g', 10),
+	                    0);
+	kv_msg->addKeyValue("comment", lineEdit->text(), 0);
 
-	QByteArray *buf = new QByteArray();
-	buf->append("incident=<incident>");
-	buf->append("<timestamp>");
-	buf->append(QString::number(time(0), 10));
-	buf->append("</timestamp>");
-	buf->append("<uid>");
-	buf->append(QString::number(uid, 10));
-	buf->append("</uid>");
-	buf->append("<rage>");
-	buf->append(QString::number(rage_amt, 10));
-	buf->append("</rage>");
-	buf->append("<lat>");
-	buf->append(QString::number(gps->get_latitude(), 'g', 10));
-	buf->append("</lat>");
-	buf->append("<long>");
-	buf->append(QString::number(gps->get_longitude(), 'g', 10));
-	buf->append("</long>");
-	buf->append("<comment>");
-	buf->append(lineEdit->text());
-	buf->append("</comment>");
-	buf->append("</incident>");
-	/* TODO: put in the constructor and private space, reuse, etc */
-	QNetworkAccessManager *manager = new QNetworkAccessManager(this);
-	connect(manager, SIGNAL(finished(QNetworkReply*)),
-	        this, SLOT(replyFinished(QNetworkReply*)));
-	manager->post(QNetworkRequest(QUrl(RAGE_BACKEND)), *buf);
-}
-
-void RageForm::replyFinished(QNetworkReply *reply)
-{
-	#if 0
-	printf("Got reply from %s\n", reply->url().toString().toAscii().data());
-	printf("Error: %d\n", reply->error());
-	QList<QByteArray> list = reply->rawHeaderList();
-	printf("%d headers:\n", list.count());
-	for (int i = 0; i < list.size(); i++) {
-		printf("%s: ", list.at(i).data());
-		printf("%s\n", reply->rawHeader(list.at(i)).data());
-	}
-	#endif
-	reply->close();
-	reply->deleteLater();
+	kv_msg->send();
 }
 
 void RageForm::on_submitButton_clicked(void)

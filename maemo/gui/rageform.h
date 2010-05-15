@@ -9,6 +9,7 @@
 #include <QByteArray>
 
 #include "ui_rageform.h"
+#include "libmobkvmsg.h"
 
 #define ACCEL_FILE "/sys/class/i2c-adapter/i2c-3/3-001d/coord"
 #define RAGE_BACKEND "http://rage.calmensvball.com/add.php5"
@@ -36,7 +37,6 @@ private slots:
 	void on_clearButton_clicked(void);
 	void on_horizontalSlider_valueChanged(int value);
 	void update_shakes(void);
-	void replyFinished(QNetworkReply *reply);
 
 private:
 	int uid;
@@ -45,6 +45,7 @@ private:
 	int ac_cur_y;
 	int ac_cur_z;
 	RageGPS *gps;
+	MobKVMessage *kv_msg;
 };
 
 #ifdef __MAEMO5__

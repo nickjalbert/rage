@@ -8,9 +8,9 @@ DEPENDPATH += .
 INCLUDEPATH += .
 
 # Input
-HEADERS += rageform.h
+HEADERS += rageform.h libmobkvmsg.h
 FORMS += rageform.ui
-SOURCES += main.cpp rageform.cpp
+SOURCES += main.cpp rageform.cpp libmobkvmsg.cpp
 
 QT += network
 CONFIG += qt
