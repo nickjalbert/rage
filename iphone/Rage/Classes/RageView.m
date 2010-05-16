@@ -13,30 +13,29 @@
 @implementation RageView
 
 @synthesize heat_img;
-@synthesize locationLabel;
 @synthesize my_accelerometer;
-@synthesize labelX;
-@synthesize labelY;
-@synthesize labelZ;
-@synthesize my_textview;
-@synthesize my_textfield;
+@synthesize my_uid;
+@synthesize my_comments;
 @synthesize is_frozen;
 @synthesize curr_lat;
 @synthesize curr_lng;
+@synthesize rage_label;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     self.is_frozen = NO;
+    
+    my_uid.text = @"1337";
+    rage_label.text = @"";
 
+    /* Default UID */
+    //[my_uid setText:@"42"];
     /* Accelerometer Tracking */
     self.my_accelerometer = [UIAccelerometer sharedAccelerometer];
     self.my_accelerometer.updateInterval = .1;
     self.my_accelerometer.delegate = self;
-    labelX.text = [NSString stringWithString:@"X:  "];
-    labelY.text = [NSString stringWithString:@"Y:  "];
-    labelZ.text = [NSString stringWithString:@"Z:  "];
 
     /* Location Tracking Interface */
     locationController = [[MyCLController alloc] init];
@@ -45,12 +44,12 @@
 
     /*Thermometer Interface */
     UIImageView * bkg = 
-        [[UIImageView alloc] initWithFrame:CGRectMake(140, 65, 42, 220)];
+        [[UIImageView alloc] initWithFrame:CGRectMake(140, 135, 42, 220)];
     [bkg setBackgroundColor:[UIColor colorWithRed:(1.0) green:(253.0f/255.0f) blue:(253.0f/255.0f) alpha:1.0]];
 
     [self.view addSubview:bkg];
 
-    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,285,42,-20)];
+    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,355,42,-20)];
     [heat_img setBackgroundColor:[UIColor colorWithRed:(221.0f/255.0f) green:(21.0f/255.0f) blue:(21.0f/255.0f) alpha:1.0]];
     [self.view addSubview:heat_img];
 
@@ -62,9 +61,6 @@
 
 - (void)accelerometer:(UIAccelerometer *) accelerometer 
         didAccelerate:(UIAcceleration *) acceleration {
-    labelX.text = [NSString stringWithFormat:@"X:%f", acceleration.x];
-    labelY.text = [NSString stringWithFormat:@"Y:%f", acceleration.y];
-    labelZ.text = [NSString stringWithFormat:@"Z:%f", acceleration.z];
     if (self.is_frozen == YES) {
         return;
     }
@@ -80,11 +76,19 @@
         [self bumpThermometer];
         return;
     }
-        }
+}
 
 - (IBAction) httpOn:(id)sender {
     [self sendRageToWeb];
 }
+
+-(IBAction)numberTyped:(id)sender {
+    NSLog(@"Typed");
+    if ([my_uid.text length] >= 4) {
+        [my_uid resignFirstResponder];
+    }
+}
+
 
 -(NSString *) getUnixTimestampString {
     float unixstamp = [[NSDate date] timeIntervalSince1970];
@@ -93,7 +97,7 @@
 }
 
 -(NSString *) getUIDString {
-    return @"33";
+    return my_uid.text;
 }
 
 -(int) getRage {
@@ -102,7 +106,7 @@
     CGRect current_disp = [heat_presentation bounds];
     
     float current_height = CGRectGetHeight(current_disp) - 20;
-    float rage_percent = current_height/2.0;
+    float rage_percent = (current_height/190.0) * 100.0;
     return (int) rage_percent;
 }
 
@@ -120,7 +124,7 @@
 }
 
 -(NSString *) getComment {
-    return @"comment!";
+    return my_comments.text;
 }
 
 -(void)sendRageToWeb {
@@ -146,36 +150,23 @@
     [msg addKeyValue:@"comment" andValue:comment];
     
     [msg send];
-    
-    /*
-    int test_id = 33;
-    NSString * str_id = [NSString stringWithFormat:@"%d", test_id];
-
-    CALayer * heat_layer = [heat_img layer];
-    CALayer * heat_presentation = [heat_layer presentationLayer];
-    CGRect current_disp = [heat_presentation bounds];
-
-    float current_height = CGRectGetHeight(current_disp) - 20;
-    NSString * my_rage = [NSString stringWithFormat:@"%.1f", current_height];
-    [request setPostValue:my_rage forKey:@"r"];
-
-    [request setPostValue:[NSString stringWithFormat:@"%f", curr_lat] forKey:@"la"];
-    [request setPostValue:[NSString stringWithFormat:@"%f", curr_lng] forKey:@"lo"];
-    [request setPostValue:@"1" forKey:@"addpoint"];
-     */
-    
 }
-
-- (void)requestDone:(ASIHTTPRequest *) request {
-    NSString * response = [request responseString];
-    my_textview.text = @"";
-    my_textview.text = response;
-}
-
-- (void)requestWentWrong:(ASIHTTPRequest *) request { }
 
 - (IBAction)rageOn:(id)sender {
     [self bumpThermometer];
+}
+
+- (void) clearRageLabel {
+    rage_label.text = @"";
+}
+
+- (void) setRageLabel {
+    rage_label.text = [self getRageString];
+    rage_label.text = [rage_label.text stringByAppendingString:@"%"];
+}
+
+- (void) cleanUpAfterSend {
+    my_comments.text = @"";
 }
 
 
@@ -183,7 +174,10 @@
     if (self.is_frozen == NO) {
         [self freezeThermometer];
         [self sendRageToWeb];
+        [self setRageLabel];
+        [self cleanUpAfterSend];
     } else {
+        [self clearRageLabel];
         [self unfreezeThermometer];
     }
 }
@@ -197,7 +191,7 @@
 
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: RAGE_DECAY_SPEED];
-    [heat_img setFrame:CGRectMake(140,285,42,-20)];
+    [heat_img setFrame:CGRectMake(140,355,42,-20)];
     [UIView commitAnimations];
 }
 
@@ -213,11 +207,11 @@
     float new_height = CGRectGetHeight(current_disp);
     new_height = new_height + amount;
     new_height = new_height * -1;
-    if (new_height < -220) {
-        new_height = -220;
+    if (new_height < -210) {
+        new_height = -210;
     }
 
-    [heat_img setFrame:CGRectMake(140, 285, 42, new_height)];
+    [heat_img setFrame:CGRectMake(140, 355, 42, new_height)];
 }
 
 -(void)freezeThermometer {
@@ -232,14 +226,11 @@
 }
 
 -(void)locationUpdate:(CLLocation *) location {
-    locationLabel.text = [location description];
     curr_lat = location.coordinate.latitude;
     curr_lng = location.coordinate.longitude;
 }
 
--(void)locationError:(NSError *) error{
-    locationLabel.text = [error description];
-}
+-(void)locationError:(NSError *) error{ }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -250,8 +241,11 @@
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)thetxt {
-    if (thetxt == my_textfield) {
-        [my_textfield resignFirstResponder];
+    if (thetxt == my_uid) {
+        [my_uid resignFirstResponder];
+    }
+    if (thetxt == my_comments) {
+        [my_comments resignFirstResponder];
     }
     return YES;
 }
@@ -260,12 +254,8 @@
     [locationController release];
     [my_accelerometer release];
     [heat_img release];
-    [labelX release];
-    [labelY release];
-    [labelZ release];
-    [my_textfield release];
-    [my_textview release];
-    [locationLabel release];
+    [my_comments release];
+    [my_uid release];
     [super dealloc];
 }
 

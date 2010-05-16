@@ -66,9 +66,9 @@
         NSURL * target_url = [NSURL URLWithString:url];
         ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:target_url];
         [request setPostValue:incident forKey:@"incident"];
-        [request startSynchronous];
+        //[request startSynchronous];
         //[request setDelegate:self];
-        //[[self queue] addOperation:request];
+        [[self queue] addOperation:request];
     }
 }
 
