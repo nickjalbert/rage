@@ -36,7 +36,6 @@
     alert = nil;
     send_success = nil;
     
-    
     /* Accelerometer Tracking */
     self.my_accelerometer = [UIAccelerometer sharedAccelerometer];
     self.my_accelerometer.updateInterval = .1;
@@ -49,12 +48,12 @@
 
     /*Thermometer Interface */
     UIImageView * bkg = 
-        [[UIImageView alloc] initWithFrame:CGRectMake(140, 115, 42, 220)];
+        [[UIImageView alloc] initWithFrame:CGRectMake(140, 120, 42, 220)];
     [bkg setBackgroundColor:[UIColor colorWithRed:(1.0) green:(253.0f/255.0f) blue:(253.0f/255.0f) alpha:1.0]];
 
     [self.view addSubview:bkg];
 
-    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,335,42,-20)];
+    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,350,42,-20)];
     [heat_img setBackgroundColor:[UIColor colorWithRed:(221.0f/255.0f) green:(21.0f/255.0f) blue:(21.0f/255.0f) alpha:1.0]];
     [self.view addSubview:heat_img];
 
@@ -86,6 +85,12 @@
 - (IBAction) httpOn:(id)sender {
     [self sendRageToWeb];
 }
+
+-(IBAction)visitRageWeb:(id)sender {
+    NSURL *rage_web = [NSURL URLWithString:@"http://rage.calmensvball.com"];
+    [[UIApplication sharedApplication] openURL:rage_web];
+}
+
 
 -(IBAction)numberTyped:(id)sender {
     if ([my_uid.text length] > 4) {
@@ -223,7 +228,7 @@
 
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: RAGE_DECAY_SPEED];
-    [heat_img setFrame:CGRectMake(140,335,42,-20)];
+    [heat_img setFrame:CGRectMake(140,350,42,-20)];
     [UIView commitAnimations];
 }
 
@@ -255,7 +260,7 @@
         new_height = -210;
     }
 
-    [heat_img setFrame:CGRectMake(140, 335, 42, new_height)];
+    [heat_img setFrame:CGRectMake(140, 350, 42, new_height)];
 }
 
 -(void)freezeThermometer {

@@ -18,7 +18,6 @@
 
     RageView *avc = [[RageView alloc] 
         initWithNibName:@"RageView" bundle:[NSBundle mainBundle]];
-
     self.viewController = avc;
     [avc release];
 

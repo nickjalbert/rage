@@ -48,6 +48,7 @@
 -(IBAction)rageFreezeToggle:(id)sender;
 -(IBAction)httpOn:(id)sender;
 -(IBAction)numberTyped:(id)sender;
+-(IBAction)visitRageWeb:(id)sender;
 -(void)sendRageToWeb;
 -(void)locationUpdate:(CLLocation *) location;
 -(void)locationError:(NSError *) error;
