@@ -20,6 +20,8 @@
 @synthesize curr_lat;
 @synthesize curr_lng;
 @synthesize rage_label;
+@synthesize alert;
+@synthesize send_success;
 
 
 - (void)viewDidLoad {
@@ -27,11 +29,14 @@
 
     self.is_frozen = NO;
     
-    my_uid.text = @"1337";
-    rage_label.text = @"";
-
-    /* Default UID */
-    //[my_uid setText:@"42"];
+    self.my_uid.text = @"1337";
+    self.rage_label.text = @"";
+    
+    /* Alert View */
+    alert = nil;
+    send_success = nil;
+    
+    
     /* Accelerometer Tracking */
     self.my_accelerometer = [UIAccelerometer sharedAccelerometer];
     self.my_accelerometer.updateInterval = .1;
@@ -44,12 +49,12 @@
 
     /*Thermometer Interface */
     UIImageView * bkg = 
-        [[UIImageView alloc] initWithFrame:CGRectMake(140, 135, 42, 220)];
+        [[UIImageView alloc] initWithFrame:CGRectMake(140, 115, 42, 220)];
     [bkg setBackgroundColor:[UIColor colorWithRed:(1.0) green:(253.0f/255.0f) blue:(253.0f/255.0f) alpha:1.0]];
 
     [self.view addSubview:bkg];
 
-    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,355,42,-20)];
+    heat_img = [[UIImageView alloc] initWithFrame:CGRectMake(140,335,42,-20)];
     [heat_img setBackgroundColor:[UIColor colorWithRed:(221.0f/255.0f) green:(21.0f/255.0f) blue:(21.0f/255.0f) alpha:1.0]];
     [self.view addSubview:heat_img];
 
@@ -83,8 +88,11 @@
 }
 
 -(IBAction)numberTyped:(id)sender {
-    NSLog(@"Typed");
-    if ([my_uid.text length] >= 4) {
+    if ([my_uid.text length] > 4) {
+        my_uid.text = [my_uid.text substringToIndex:4];
+    }
+    
+    if ([my_uid.text length] == 4) {
         [my_uid resignFirstResponder];
     }
 }
@@ -124,6 +132,10 @@
 }
 
 -(NSString *) getComment {
+    [self lazyInitializeAlert];
+    if (my_comments.text.length > 140) {
+       return [my_comments.text substringToIndex:140]; 
+    }
     return my_comments.text;
 }
 
@@ -166,15 +178,35 @@
 }
 
 - (void) cleanUpAfterSend {
+    [self lazyInitializeAlert];
     my_comments.text = @"";
 }
 
 
+- (void) lazyInitializeAlert {
+    if (alert == nil) {
+        alert = [[UIAlertView alloc] initWithTitle:@"Let's Rage" message:@"\n" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Send!", nil];
+        my_comments = [[UITextField alloc] initWithFrame:CGRectMake(12, 45, 260, 25)];
+        my_comments.placeholder = @"Reason for Rage";
+        my_comments.textAlignment = UITextAlignmentCenter;
+        my_comments.delegate = self;
+        CGAffineTransform myTransform = CGAffineTransformMakeTranslation(0, 60);
+        [alert setTransform:myTransform];
+        [my_comments setBackgroundColor:[UIColor whiteColor]];
+        [alert addSubview:my_comments];
+    }
+    
+    if (send_success == nil) {
+        send_success = [[UIAlertView alloc] initWithTitle:@"Rage Uploaded!" message:@"" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    }
+}
+
 -(IBAction)rageFreezeToggle:(id)sender {
     if (self.is_frozen == NO) {
         [self freezeThermometer];
-        [self sendRageToWeb];
         [self setRageLabel];
+        [self lazyInitializeAlert];
+        [alert show];
         [self cleanUpAfterSend];
     } else {
         [self clearRageLabel];
@@ -191,12 +223,24 @@
 
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: RAGE_DECAY_SPEED];
-    [heat_img setFrame:CGRectMake(140,355,42,-20)];
+    [heat_img setFrame:CGRectMake(140,335,42,-20)];
     [UIView commitAnimations];
 }
 
 -(void)bumpThermometer {
-    [self bumpThermometerByAmount:PIXEL_INCREASE_PER_RAGE];
+    int rage = [self getRage];
+    int bumpAmount = PIXEL_INCREASE_PER_RAGE;
+    if (rage >= 50) {
+        bumpAmount = bumpAmount/2;
+    }
+    if (rage >= 75) {
+        bumpAmount = bumpAmount/2;
+    }
+    if (rage >= 85) {
+        bumpAmount = bumpAmount/2;
+    }
+    
+    [self bumpThermometerByAmount:bumpAmount];
 }
 
 -(void)increaseMercuryHeight:(int) amount {
@@ -211,7 +255,7 @@
         new_height = -210;
     }
 
-    [heat_img setFrame:CGRectMake(140, 355, 42, new_height)];
+    [heat_img setFrame:CGRectMake(140, 335, 42, new_height)];
 }
 
 -(void)freezeThermometer {
@@ -253,11 +297,27 @@
 - (void)dealloc {
     [locationController release];
     [my_accelerometer release];
+    [alert release];
     [heat_img release];
     [my_comments release];
     [my_uid release];
     [super dealloc];
 }
 
-
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (alertView == alert) {
+        if (buttonIndex == 0) {
+            NSLog(@"Cancel");
+        } else if (buttonIndex == 1) {
+            NSLog(@"Send");
+            [self sendRageToWeb];
+            [send_success show];
+        }
+        [self cleanUpAfterSend];
+    }
+    
+}
+- (void)alertViewCancel:(UIAlertView *)alertView {
+    [self cleanUpAfterSend];
+}
 @end
