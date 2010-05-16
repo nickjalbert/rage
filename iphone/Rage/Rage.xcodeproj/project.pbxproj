@@ -25,6 +25,7 @@
 		01C2C3C71180F7A200CE587C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C2C3C61180F7A200CE587C /* MobileCoreServices.framework */; };
 		01C2C3C91180F7B100CE587C /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C2C3C81180F7B100CE587C /* libz.1.2.3.dylib */; };
 		01C2C3CC1180F7E200CE587C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C2C3CB1180F7E200CE587C /* Reachability.m */; };
+		01D312BB119FBAF2000301C5 /* MobileKVMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D312BA119FBAF2000301C5 /* MobileKVMessage.m */; };
 		1D3623260D0F684500981E51 /* RageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RageAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -64,6 +65,8 @@
 		01C2C3C81180F7B100CE587C /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		01C2C3CA1180F7E200CE587C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		01C2C3CB1180F7E200CE587C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		01D312B9119FBAF2000301C5 /* MobileKVMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileKVMessage.h; sourceTree = "<group>"; };
+		01D312BA119FBAF2000301C5 /* MobileKVMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileKVMessage.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* RageAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* RageAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageAppDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				0133E8191172C84400691E4E /* RageView.xib */,
 				0137F77B11752BCF0022CB97 /* MyCLController.h */,
 				0137F77C11752BCF0022CB97 /* MyCLController.m */,
+				01D312B9119FBAF2000301C5 /* MobileKVMessage.h */,
+				01D312BA119FBAF2000301C5 /* MobileKVMessage.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				01C2C3BE1180F76900CE587C /* ASINetworkQueue.m in Sources */,
 				01C2C3BF1180F76900CE587C /* ASINSStringAdditions.m in Sources */,
 				01C2C3CC1180F7E200CE587C /* Reachability.m in Sources */,
+				01D312BB119FBAF2000301C5 /* MobileKVMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

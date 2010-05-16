@@ -5,7 +5,6 @@
  */
 
 #import "RageView.h"
-#import "ASIFormDataRequest.h"
 
 #define PIXEL_INCREASE_PER_RAGE 15
 #define RAGE_DECAY_SPEED 1.5
@@ -20,7 +19,6 @@
 @synthesize labelY;
 @synthesize labelZ;
 @synthesize my_textview;
-@synthesize queue;
 @synthesize my_textfield;
 @synthesize is_frozen;
 @synthesize curr_lat;
@@ -88,22 +86,70 @@
     [self sendRageToWeb];
 }
 
+-(NSString *) getUnixTimestampString {
+    float unixstamp = [[NSDate date] timeIntervalSince1970];
+    NSString * timestamp = [NSString stringWithFormat:@"%0.0f", unixstamp];
+    return timestamp;
+}
+
+-(NSString *) getUIDString {
+    return @"33";
+}
+
+-(int) getRage {
+    CALayer * heat_layer = [heat_img layer];
+    CALayer * heat_presentation = [heat_layer presentationLayer];
+    CGRect current_disp = [heat_presentation bounds];
+    
+    float current_height = CGRectGetHeight(current_disp) - 20;
+    float rage_percent = current_height/2.0;
+    return (int) rage_percent;
+}
+
+-(NSString *) getRageString {
+    int rage = [self getRage];
+    return [NSString stringWithFormat:@"%d", rage];
+}
+
+-(NSString *) getLngString {
+    return [NSString stringWithFormat:@"%f", curr_lng];
+}
+
+-(NSString *) getLatString {
+    return [NSString stringWithFormat:@"%f", curr_lat];
+}
+
+-(NSString *) getComment {
+    return @"comment!";
+}
+
 -(void)sendRageToWeb {
-    if (![self queue]) {
-        [self setQueue:[[[NSOperationQueue alloc] init] autorelease]];
-    }
-    NSURL * url = [NSURL URLWithString:@"http://rage.calmensvball.com/add.php"];
-    //NSURL * url = [NSURL URLWithString:@"http://www.nickjalbert.com/test2.php"];
-    ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:url];
+    NSString * target = [NSString stringWithString:@"http://rage.calmensvball.com/add.php5"];
+    MobileKVMessage* msg = [MobileKVMessage getNewMobileKVMessage:target];
+    
+    NSString * timestamp = [self getUnixTimestampString];
+    [msg addKeyValue:@"timestamp" andValue:timestamp];
+    
+    NSString * uid = [self getUIDString];
+    [msg addKeyValue:@"uid" andValue:uid];
+    
+    NSString * rage = [self getRageString];
+    [msg addKeyValue:@"rage" andValue:rage];
+    
+    NSString * lat = [self getLatString];
+    [msg addKeyValue:@"lat" andValue:lat];
+    
+    NSString * lng = [self getLngString];
+    [msg addKeyValue:@"long" andValue:lng];
+    
+    NSString * comment = [self getComment];
+    [msg addKeyValue:@"comment" andValue:comment];
+    
+    [msg send];
+    
     /*
-       NSString * my_name = [NSString stringWithFormat:@"%@", my_textfield.text];
-       if ([my_name length] == 0) {
-       my_name = [NSString stringWithString:@"Anon"];
-       }
-    */
     int test_id = 33;
     NSString * str_id = [NSString stringWithFormat:@"%d", test_id];
-    [request setPostValue:str_id forKey:@"u"];
 
     CALayer * heat_layer = [heat_img layer];
     CALayer * heat_presentation = [heat_layer presentationLayer];
@@ -116,10 +162,8 @@
     [request setPostValue:[NSString stringWithFormat:@"%f", curr_lat] forKey:@"la"];
     [request setPostValue:[NSString stringWithFormat:@"%f", curr_lng] forKey:@"lo"];
     [request setPostValue:@"1" forKey:@"addpoint"];
-    [request setDelegate:self];
-    [request setDidFinishSelector:@selector(requestDone:)];
-    [request setDidFailSelector:@selector(requestWentWrong:)];
-    [[self queue] addOperation:request];
+     */
+    
 }
 
 - (void)requestDone:(ASIHTTPRequest *) request {
@@ -216,7 +260,6 @@
     [locationController release];
     [my_accelerometer release];
     [heat_img release];
-    [queue release];
     [labelX release];
     [labelY release];
     [labelZ release];

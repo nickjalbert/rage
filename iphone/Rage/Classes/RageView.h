@@ -10,6 +10,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MyCLController.h"
+#import "MobileKVMessage.h"
 
 @interface RageView : UIViewController <MyCLControllerDelegate,
     UIAccelerometerDelegate,
@@ -23,7 +24,7 @@
         UILabel * labelY;
         UILabel * labelZ;
         UIAccelerometer * my_accelerometer;
-        NSOperationQueue * queue;
+        
         BOOL is_frozen;
         float curr_lat;
         float curr_lng;
@@ -32,7 +33,6 @@
 
 @property (nonatomic, retain) UIAccelerometer * my_accelerometer;
 @property (nonatomic, retain) UIImageView * heat_img;
-@property (nonatomic, retain) NSOperationQueue * queue;
 @property (nonatomic, retain) IBOutlet UILabel * labelX;
 @property (nonatomic, retain) IBOutlet UILabel * labelY;
 @property (nonatomic, retain) IBOutlet UILabel * labelZ;
@@ -56,5 +56,11 @@
 -(void)freezeThermometer;
 -(void)unfreezeThermometer;
 -(BOOL)textFieldShouldReturn:(UITextField *)thetxt;
-
+-(NSString *) getUnixTimestampString; 
+-(NSString *) getUIDString;
+-(int) getRage;
+-(NSString *) getRageString;
+-(NSString *) getLngString;
+-(NSString *) getLatString;
+-(NSString *) getComment;
 @end
