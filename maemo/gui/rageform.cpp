@@ -42,6 +42,7 @@ void RageForm::post_info(void)
 	printf("Rage: %d\n", rage_amt);
 	printf("Comment: %s\n", lineEdit->text().toAscii().data());
 	
+	/* making a new message might not be threadsafe, due to libconic issues */
 	kv_msg = new MobKVMessage(QUrl(RAGE_BACKEND), this);
 	kv_msg->addKeyValue("timestamp", QString::number(time(0), 10), 0);
 	kv_msg->addKeyValue("uid", QString::number(uid, 10), 0);

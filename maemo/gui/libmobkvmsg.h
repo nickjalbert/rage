@@ -1,5 +1,5 @@
-#ifndef LIBMOBKV_H
-#define LIBMOBKV_H
+#ifndef LIBMOBKVMSG_H
+#define LIBMOBKVMSG_H
 
 #include <QtCore>
 #include <QNetworkRequest>
@@ -10,6 +10,20 @@
 
 /* Flags, or whatever */
 #define MOBKV_BLOB			1
+
+#ifdef __MAEMO5__
+#include <conic/conicconnection.h>
+#include <conic/conicconnectionevent.h>
+#include <conic/conicevent.h>
+#endif /* __MAEMO5__ */
+
+enum ConnectionType
+{
+    CONN_TYPE_UNKNOWN,
+    CONN_TYPE_WIFI,
+    CONN_TYPE_CELLULAR,
+    CONN_TYPE_INIT,
+};
 
 class MobKVMessage : public QObject
 {
@@ -29,9 +43,13 @@ private slots:
 	void replyFinished(QNetworkReply *reply);
 
 private:
+	ConnectionType con_type;
 	QNetworkAccessManager net_man;
 	QByteArray buf;
 	QUrl url;
+	/* this won't work right - these lists get freed when the obj dies */
+	QList<QByteArray> fast_msgs;
+	QList<QByteArray> slow_msgs;
 };
 
-#endif /* LIBMOBKV_H */
+#endif /* LIBMOBKVMSG_H */

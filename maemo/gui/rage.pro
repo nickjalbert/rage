@@ -21,5 +21,5 @@ contains(ARCH, armel) {
 	message("Making for maemo5 with GPS and such...")
 	DEFINES += __MAEMO5__
 	CONFIG += link_pkgconfig
-	PKGCONFIG += glib-2.0 liblocation
+	PKGCONFIG += glib-2.0 liblocation conic
 }
